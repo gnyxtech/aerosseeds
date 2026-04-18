@@ -14,9 +14,11 @@ export function Router() {
       path: '/',
       element: <Layout />,
       children: [
-        { path: '/', element: <HomePage /> },
+        { path: PATH_DASHBOARD.root, element: <HomePage /> },
+        { path: PATH_DASHBOARD.home, element: <HomePage /> },
         { path: PATH_DASHBOARD.aboutUs, element: <About /> },
         { path: PATH_DASHBOARD.contactUs, element: <Contact /> },
+        { path: PATH_DASHBOARD.products, element: < /> },
       ],
     },
     // { path: "*", element: <Page404 /> },
