@@ -236,8 +236,8 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "products": "products",
-    "contact": "contact"
+    "products": "Products",
+    "contact": "Contact"
   },
   "footer": {
     "sownForTrust": "SOWN FOR TRUST",
@@ -253,5 +253,49 @@
     "title": "Page Not Found",
     "description": "Oops! The page you are looking for doesn’t exist or has been moved.",
     "logoTagline": "Aeros Seeds · Growing Trust"
+  },
+  "products": {
+    "heading": "Our seeds",
+    "subHeading": "Filter by category or search — every variety comes with a direct WhatsApp enquiry.",
+    "search": "Search",
+    "catalogue": "CATALOGUE",
+    "products": [
+      {
+        "title": "PDM-139",
+        "subtitle": "MOONG SEEDS",
+        "category": "Oilseeds & Pulses",
+        "image": "/assets/products/moongseeds-pdm139.webp"
+      },
+      {
+        "title": "S-444",
+        "subtitle": "MOONG SEEDS",
+        "category": "Oilseeds & Pulses",
+        "image": "/assets/products/moongseeds-s444.webp"
+      },
+      {
+        "title": "Hybrid Maize 775",
+        "subtitle": "Maize",
+        "category": "Cereals & Grains",
+        "image": "/assets/products/hybridmaize-775.webp"
+      },
+      {
+        "title": "Hybrid Maize 771",
+        "subtitle": "Maize",
+        "category": "Cereals & Grains",
+        "image": "/assets/products/hybridmaize-771.webp"
+      },
+      {
+        "title": "Soyabean Jwala-13",
+        "subtitle": "Soyabean",
+        "category": "Oilseeds & Pulses",
+        "image": "/assets/products/jwala13.webp"
+      },
+      {
+        "title": "Chia Seeds",
+        "subtitle": "Chia Seeds",
+        "category": "Oilseeds & Pulses",
+        "image": "/assets/products/chiaseeds.webp"
+      }
+    ]
   }
 }
