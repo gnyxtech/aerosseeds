@@ -150,6 +150,45 @@
       ]
     }
   },
+  "contact": {
+    "heading": "Get in touch",
+    "subHeading": "Let's talk seeds.",
+    "description": "Send us a quick message and we'll continue the conversation on WhatsApp — fast, simple and in your language.",
+    "form": {
+      "name": {
+        "heading": "YOUR NAME",
+        "placeholder": "Ramesh Patil"
+      },
+      "phone": {
+        "heading": "PHONE NUMBER",
+        "placeholder": "9876543210"
+      },
+      "message": {
+        "heading": "YOUR MESSAGE",
+        "placeholder": "Tell us about your crop, area or which seeds you need..."
+      },
+      "submitButton": "Send via Whatsapp",
+      "infoText": "We don't store your form. The message opens directly in WhatsApp."
+    },
+    "contactDetails": {
+      "heading": "Quick Contact",
+      "details": {
+        "phone": {
+          "heading": "PHONE",
+          "value": "+91 9329202018"
+        },
+        "email": {
+          "heading": "EMAIL",
+          "value": "aerosseeds@gmail.com"
+        },
+        "address": {
+          "heading": "VISIT",
+          "value": "Aeros Seeds and Biotech Farmers Producer Company, Khasra No. 121/2, Khandwa Road, Gangla, Harda, Madhya Pradesh – 461331"
+        }
+      },
+      "contactButton": "Open Whatsapp"
+    }
+  },
   "about": {
     "hero": {
       "our-story": "Our story",

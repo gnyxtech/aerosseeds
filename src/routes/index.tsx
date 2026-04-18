@@ -4,6 +4,7 @@ import Layout from './layout';
 import { HomePage } from '../pages/home/home';
 import { PATH_DASHBOARD } from './paths';
 import { About } from '../pages/about/about';
+import Contact from './../pages/contact/contact';
 
 // ----------------------------------------------------------------------
 
@@ -16,8 +17,8 @@ export function Router() {
         { path: PATH_DASHBOARD.root, element: <HomePage /> },
         { path: PATH_DASHBOARD.home, element: <HomePage /> },
         { path: PATH_DASHBOARD.aboutUs, element: <About /> },
-        { path: PATH_DASHBOARD.products, element: <About /> },
-        { path: PATH_DASHBOARD.contact, element: <About /> },
+        { path: PATH_DASHBOARD.contactUs, element: <Contact /> },
+        { path: PATH_DASHBOARD.products, element: < /> },
       ],
     },
     // { path: "*", element: <Page404 /> },
