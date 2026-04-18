@@ -15,4 +15,5 @@ export const PATH_DASHBOARD = {
   home: path(ROOTS_DASHBOARD, '/home'),
   products: path(ROOTS_DASHBOARD, '/products'),
   aboutUs: path(ROOTS_DASHBOARD, '/about-us'),
+  contact: path(ROOTS_DASHBOARD, '/contact'),
 };

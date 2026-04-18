@@ -1,6 +1,10 @@
 {
   "common": {
     "ownerName": "Sandeep patel",
+    "aeros": "Aeros",
+    "seedsCo": "SEEDS CO.",
+    "aerosSeeds": "Aeros Seeds",
+    "address": "Hyderabad, Telangana, India",
     "button": {
       "chatOnWhatsapp": "Chat On Whatsapp"
     }
@@ -65,5 +69,15 @@
     "about": "About",
     "products": "products",
     "contact": "contact"
+  },
+  "footer": {
+    "sownForTrust": "SOWN FOR TRUST",
+    "description": "Quality-tested, high-germination seeds for Indian farms. Trusted by thousands of farmers across India for stronger yield and reliable harvests.",
+    "headings": {
+      "explore": "EXPLORE",
+      "reachUs": "REACH US"
+    },
+    "copyright": "Aeros Seeds Co. All rights reserved.",
+    "createdBy": "Crafted for Indian farmers · Made with ❤️"
   }
 }

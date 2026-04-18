@@ -5,7 +5,7 @@ import FeaturedProducts from '../../components/home/FeaturedProducts';
 import TrustSection from '../../components/home/TrustSection';
 
 const HomePage = () => {
-  const { setLang, t } = useI18n();
+  const { setLang } = useI18n();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -52,8 +52,8 @@ const HomePage = () => {
         </div>
       )}
 
-      <Hero/>
-      <FeaturedProducts/>
+      <Hero />
+      <FeaturedProducts />
       <TrustSection />
     </>
   );

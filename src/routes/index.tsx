@@ -13,8 +13,11 @@ export function Router() {
       path: '/',
       element: <Layout />,
       children: [
-        { path: '/', element: <HomePage /> },
+        { path: PATH_DASHBOARD.root, element: <HomePage /> },
+        { path: PATH_DASHBOARD.home, element: <HomePage /> },
         { path: PATH_DASHBOARD.aboutUs, element: <About /> },
+        { path: PATH_DASHBOARD.products, element: <About /> },
+        { path: PATH_DASHBOARD.contact, element: <About /> },
       ],
     },
     // { path: "*", element: <Page404 /> },
