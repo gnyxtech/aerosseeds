@@ -253,5 +253,49 @@
     "title": "पेज नहीं मिला",
     "description": "ओह! जिस पेज को आप ढूंढ रहे हैं वह मौजूद नहीं है या कहीं और स्थानांतरित कर दिया गया है।",
     "logoTagline": "एरोस सीड्स · भरोसे की खेती"
+  },
+  "products": {
+    "heading": "हमारे बीज",
+    "subHeading": "श्रेणी के अनुसार फ़िल्टर करें या खोजें — हर किस्म के साथ सीधे व्हाट्सऐप पर पूछताछ की सुविधा उपलब्ध है।",
+    "search": "खोजें",
+    "catalogue": "कैटलॉग",
+    "products": [
+      {
+        "title": "PDM-139",
+        "subtitle": "मूंग बीज",
+        "category": "तिलहन और दालें",
+        "image": "/assets/products/moongseeds-pdm139.webp"
+      },
+      {
+        "title": "S-444",
+        "subtitle": "मूंग बीज",
+        "category": "तिलहन और दालें",
+        "image": "/assets/products/moongseeds-s444.webp"
+      },
+      {
+        "title": "हाइब्रिड मक्का 775",
+        "subtitle": "मक्का",
+        "category": "अनाज और धान्य",
+        "image": "/assets/products/hybridmaize-775.webp"
+      },
+      {
+        "title": "हाइब्रिड मक्का 771",
+        "subtitle": "मक्का",
+        "category": "अनाज और धान्य",
+        "image": "/assets/products/hybridmaize-771.webp"
+      },
+      {
+        "title": "सोयाबीन ज्वाला-13",
+        "subtitle": "सोयाबीन",
+        "category": "तिलहन और दालें",
+        "image": "/assets/products/jwala13.webp"
+      },
+      {
+        "title": "चिया बीज",
+        "subtitle": "चिया बीज",
+        "category": "तिलहन और दालें",
+        "image": "/assets/products/chiaseeds.webp"
+      }
+    ]
   }
 }
