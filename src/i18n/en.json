@@ -55,6 +55,8 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About"
+    "about": "About",
+    "products": "products",
+    "contact": "contact"
   }
 }
