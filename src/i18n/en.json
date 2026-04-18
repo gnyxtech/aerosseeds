@@ -6,7 +6,9 @@
     "aerosSeeds": "Aeros Seeds",
     "address": "Hyderabad, Telangana, India",
     "button": {
-      "chatOnWhatsapp": "Chat On Whatsapp"
+      "chatOnWhatsapp": "Chat On Whatsapp",
+      "browseSeeds": "Browse Seeds",
+      "enquireNow": "Enquire Now"
     }
   },
   "home": {
@@ -15,11 +17,137 @@
       "title1": "Premium Seeds.",
       "title2": "Better Farming Growth.",
       "description": "Aero Seeds is a trusted agriculture seed and biotech company dedicated to providing high-quality seeds for Indian farmers. We focus on productivity, crop performance, and farmer success.",
-      "button": "Browse Seeds",
       "rightBadge": "Premium Seeds",
       "stat1": "Farmers served",
       "stat2": "Germination",
       "stat3": "Varieties"
+    },
+    "featuredProducts": {
+      "heading": "Our Range",
+      "subHeading": "Seeds for every season",
+      "allProducts": "All Products",
+      "products": [
+        {
+          "title": "PDM-139",
+          "subtitle": "MOONG SEEDS",
+          "image": "/assets/products/moongseeds-pdm139.webp"
+        },
+        {
+          "title": "S-444",
+          "subtitle": "MOONG SEEDS",
+          "image": "/assets/products/moongseeds-s444.webp"
+        },
+        {
+          "title": "Hybrid Maize 775",
+          "subtitle": "Maize",
+          "image": "/assets/products/hybridmaize-775.webp"
+        },
+        {
+          "title": "Hybrid Maize 771",
+          "subtitle": "Maize",
+          "image": "/assets/products/hybridmaize-771.webp"
+        },
+        {
+          "title": "Soyabean Jwala-13",
+          "subtitle": "Soyabean",
+          "image": "/assets/products/jwala13.webp"
+        },
+        {
+          "title": "Chia Seeds",
+          "subtitle": "Chia Seeds",
+          "image": "/assets/products/chiaseeds.webp"
+        }
+      ]
+    },
+    "trustSection": {
+      "heading": "Why Aeros?",
+      "subHeading": "Trust grown over generations",
+      "description": "We don’t just sell seeds — we stand behind every packet with science, support and a promise of quality you can taste in every harvest.",
+      "features": [
+        {
+          "title": "Premium quality tested seeds",
+          "desc": "Every batch lab-checked for purity & germination above 95%.",
+          "icon": "verified_user"
+        },
+        {
+          "title": "High Yield",
+          "desc": "Field-proven hybrids built for Indian soil and climate.",
+          "icon": "trending_up"
+        },
+        {
+          "title": "Trusted by Farmers",
+          "desc": "Relying on proven field performance, quality-tested seeds trusted by thousands of farmers.",
+          "icon": "workspace_premium"
+        },
+        {
+          "title": "Affordable Pricing",
+          "desc": "High-quality seeds at fair prices, ensuring better value without compromising yield.",
+          "icon": "sell"
+        }
+      ]
+    },
+    "process": {
+      "heading": "The Aeros Process",
+      "subHeading": "From the field to your sowbag",
+      "description": "Three simple steps. Every seed traceable, tested, and trusted.",
+      "steps": [
+        {
+          "id": "01",
+          "title": "Sourced",
+          "description": "Hand-picked parent lines grown on partner farms across India.",
+          "image": "/assets/images/farms-crops.webp"
+        },
+        {
+          "id": "02",
+          "title": "Processed",
+          "description": "Cleaned, graded and treated in our state-of-the-art facility.",
+          "image": "/assets/images/factory.webp"
+        },
+        {
+          "id": "03",
+          "title": "Packed",
+          "description": "Sealed in moisture-proof packs with full traceability.",
+          "image": "/assets/images/owner.webp"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Voices from the Field",
+      "subHeading": "Loved by farmers across India",
+      "testimonials": [
+        {
+          "id": 1,
+          "quote": "Aeros maize gave me 60 quintals per acre last season. The germination is the best I've seen in 20 years.",
+          "name": "Ramesh Patil",
+          "location": "Nashik, Maharashtra",
+          "image": "https://images.unsplash.com/photo-1542385151-efd9000785a0?w=100&h=100&fit=crop"
+        },
+        {
+          "id": 2,
+          "quote": "Tomato variety stays firm for days after harvest. Mandi traders pay ₹3–4 more per kg for Aeros tomatoes.",
+          "name": "Suresh Reddy",
+          "location": "Kurnool, Andhra Pradesh",
+          "image": "https://images.unsplash.com/photo-1542385151-efd9000785a0?w=100&h=100&fit=crop"
+        },
+        {
+          "id": 3,
+          "quote": "Their team came to my field, explained everything in Hindi. Now my whole village uses Aeros seeds.",
+          "name": "Priya Chaudhary",
+          "location": "Sonipat, Haryana",
+          "image": "https://images.unsplash.com/photo-1542385151-efd9000785a0?w=100&h=100&fit=crop"
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Ready to plant smarter this season?",
+      "subHeading": "Talk to our agronomy team — pricing, varieties for your soil, and direct dispatch. No forms, just WhatsApp.",
+      "rightButton" : "Chat on Whatsapp now",
+      "rightText": "Or call us",
+      "benefits": [
+        "Free expert advice",
+        "Direct from manufacturer pricing",
+        "Pan-India delivery"
+      ]
     }
   },
   "about": {
