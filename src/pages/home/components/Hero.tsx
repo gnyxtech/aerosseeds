@@ -3,7 +3,7 @@ import { useI18n } from '../../../i18n/provider';
 function Hero() {
   const { t } = useI18n();
   return (
-    <section className="w-full  px-6 py-16 md:py-24">
+    <section className="w-full  px-6 py-10">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
         {/* LEFT CONTENT */}
         <div>
@@ -33,7 +33,10 @@ function Hero() {
 
             <button className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 text-sm font-medium text-gray-800 hover:bg-gray-50 transition">
               {t('common.button.browseSeeds')}{' '}
-              <span className="material-symbols-outlined" style={{ fontSize: "14px" }}>
+              <span
+                className="material-symbols-outlined"
+                style={{ fontSize: '14px' }}
+              >
                 line_end_arrow_notch
               </span>
             </button>

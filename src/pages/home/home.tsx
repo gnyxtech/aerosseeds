@@ -8,7 +8,7 @@ import Testimonials from './components/Testinomials';
 import Contact from './components/Contact';
 
 const HomePage = () => {
-  const { setLang, t } = useI18n();
+  const { setLang } = useI18n();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -55,8 +55,8 @@ const HomePage = () => {
         </div>
       )}
 
-      <Hero/>
-      <FeaturedProducts/>
+      <Hero />
+      <FeaturedProducts />
       <TrustSection />
       <Process />
       <Testimonials/>
