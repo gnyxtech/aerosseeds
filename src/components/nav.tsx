@@ -14,7 +14,7 @@ const Navbar = () => {
     { name: 'home', path: PATH_DASHBOARD.home },
     { name: 'products', path: PATH_DASHBOARD.products },
     { name: 'about', path: PATH_DASHBOARD.aboutUs },
-    { name: 'contact', path: PATH_DASHBOARD.contact },
+    { name: 'contact', path: PATH_DASHBOARD.contactUs },
   ];
 
   const toggleLang = () => {

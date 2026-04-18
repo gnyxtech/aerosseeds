@@ -1,7 +1,17 @@
+import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../i18n/provider';
+import { PATH_DASHBOARD } from '../routes/paths';
 
 const Footer = () => {
   const { t } = useI18n();
+  const navigate = useNavigate();
+
+  const navLinks = [
+    { name: 'products', path: PATH_DASHBOARD.products },
+    { name: 'about', path: PATH_DASHBOARD.aboutUs },
+    { name: 'contact', path: PATH_DASHBOARD.contactUs },
+  ];
+
   return (
     <footer className="bg-secondary/10 text-[#1a2b1d] px-6 md:px-16 py-12">
       <div className="grid md:grid-cols-3 gap-10">
@@ -31,17 +41,24 @@ const Footer = () => {
         </div>
 
         {/* CENTER */}
-        <div>
+        <div className="md:ml-30">
           <h3 className="font-semibold tracking-widest mb-4">
             {' '}
             {t('footer.headings.explore')}
           </h3>
+
           <ul className="space-y-3 text-sm">
-            <li className="hover:text-green-700 cursor-pointer">
-              All Products
-            </li>
-            <li className="hover:text-green-700 cursor-pointer">About Us</li>
-            <li className="hover:text-green-700 cursor-pointer">Contact</li>
+            {navLinks.map((item) => {
+              return (
+                <li
+                  key={item.name}
+                  onClick={() => navigate(item.path)}
+                  className="hover:text-green-700 cursor-pointer"
+                >
+                  {t(`nav.${item.name}`)}
+                </li>
+              );
+            })}
           </ul>
         </div>
 
