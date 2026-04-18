@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../i18n/provider';
 import { PATH_DASHBOARD } from '../routes/paths';
+import { APP_IMAGE } from '../constants/image';
 
 const Footer = () => {
   const { t } = useI18n();
@@ -13,22 +14,15 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-secondary/10 text-[#1a2b1d] px-6 md:px-16 py-12">
+    <footer className="bg-secondary/10  text-[#1a2b1d] px-6 py-12 md:px-12">
+      <div className='max-w-7xl mx-auto'>
+
+      
       <div className="grid md:grid-cols-3 gap-10">
         {/* LEFT */}
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 bg-green-700 text-white flex items-center justify-center rounded-full text-lg font-bold">
-              <span className="material-symbols-outlined">psychiatry</span>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold">
-                {t('common.aerosSeeds')}
-              </h2>
-              <p className="text-xs tracking-widest">
-                {t('footer.sownForTrust')}
-              </p>
-            </div>
+            <img src={APP_IMAGE.logo} className='h-6' alt="" />
           </div>
 
           <p className="text-sm leading-6 mb-6 max-w-md">
@@ -92,6 +86,7 @@ const Footer = () => {
           © {new Date().getFullYear()} {t('footer.copyright')}
         </p>
         <p className="mt-2 md:mt-0">{t('footer.createdBy')}</p>
+      </div>
       </div>
     </footer>
   );

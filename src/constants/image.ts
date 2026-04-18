@@ -2,6 +2,7 @@ export const APP_IMAGE = {
   owner: 'public/assets/images/owner.webp',
   farm: 'public/assets/images/farms-crops.webp',
   factory: 'public/assets/images/factory.webp',
+  logo: 'public/assets/images/logo.webp',
   products: {
       chia: 'public/assets/products/chiaseeds.webp',
       maize771: 'public/assets/products/hybridmaize-771.webp',
@@ -18,5 +19,5 @@ export const APP_IMAGE = {
       mustard: 'public/assets/products/mustardseeds.webp',
       mustard3536: 'public/assets/products/mustardseeds3536.webp',
       sanskritipdm139: 'public/assets/products/sanskritimoongseeds-pdm139.webp',
-  }
+    }
 };

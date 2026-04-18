@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useI18n } from '../i18n/provider';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { PATH_DASHBOARD } from '../routes/paths';
+import { APP_IMAGE } from './../constants/image';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -27,15 +28,9 @@ const Navbar = () => {
         {/* LOGO */}
         <div
           onClick={() => navigate(PATH_DASHBOARD.home)}
-          className="flex items-center gap-2 cursor-pointer"
+          className="flex items-center cursor-pointer"
         >
-          <div className="w-10 h-10 bg-green-700 text-white flex items-center justify-center rounded-full text-lg font-bold">
-            <span className="material-symbols-outlined">psychiatry</span>
-          </div>
-          <div>
-            <h1 className="font-semibold text-lg">{t('common.aeros')}</h1>
-            <p className="text-xs text-gray-500">{t('common.seedsCo')}</p>
-          </div>
+          <img src={APP_IMAGE.logo} className='h-6' alt="" />
         </div>
 
         {/* DESKTOP MENU */}
