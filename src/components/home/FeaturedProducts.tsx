@@ -1,3 +1,5 @@
+import { APP_IMAGE } from '../../constants/image';
+
 type Category = {
   title: string;
   subtitle: string;
@@ -8,7 +10,7 @@ const categories: Category[] = [
   {
     title: 'PDM-139',
     subtitle: 'MOONG SEEDS',
-    image: '/assets/products/moongseeds-pdm139.webp'
+    image: 'pdm139'
   },
   {
     title: 'S-444',

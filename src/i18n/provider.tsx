@@ -5,7 +5,7 @@ import type { Lang } from './index';
 type I18nContextType = {
   lang: Lang;
   setLang: (lang: Lang) => void;
-  t: (key: string) => any;
+  t: (key: string, options?: { returnObjects?: boolean }) => any;
 };
 
 const I18nContext = createContext<I18nContextType | null>(null);
@@ -23,15 +23,15 @@ export const I18nProvider = ({ children }: any) => {
     setLangState(l);
   };
 
-  const t = (key: string) => {
+  const t = (key: string, options?: { returnObjects?: boolean }) => {
     const keys = key.split('.');
     let value: any = translations[lang];
 
     for (const k of keys) {
       value = value?.[k];
     }
-
-    return value ?? key;
+    if (options?.returnObjects) return value;
+    return typeof value === 'string' ? value : key;
   };
 
   return (
