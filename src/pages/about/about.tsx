@@ -152,7 +152,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="bg-[#e9dfcf] py-16 px-4 md:px-6 text-center">
+      <section className="bg-secondary/10 py-16 px-4 md:px-6 text-center">
         <div className="max-w-3xl mx-auto">
           {/* Leadership Line */}
           <p className="text-[#1f2d1f] text-lg md:text-xl mb-8 font-medium">
