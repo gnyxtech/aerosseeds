@@ -151,6 +151,25 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-[#e9dfcf] py-16 px-4 md:px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          {/* Leadership Line */}
+          <p className="text-[#1f2d1f] text-lg md:text-xl mb-8 font-medium">
+            {t('about.leadership')}
+          </p>
+
+          {/* CTA Button */}
+          <a
+            href="https://wa.me/919329202018"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-md hover:bg-green-700 hover:shadow-lg transition-all duration-300 hover:scale-105"
+          >
+            {t('common.button.chatOnWhatsapp')}
+          </a>
+        </div>
+      </section>
     </div>
   );
 };
