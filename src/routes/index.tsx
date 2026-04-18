@@ -4,6 +4,7 @@ import Layout from './layout';
 import { HomePage } from '../pages/home/home';
 import { PATH_DASHBOARD } from './paths';
 import { About } from '../pages/about/about';
+import Contact from './../pages/contact/contact';
 
 // ----------------------------------------------------------------------
 
@@ -15,6 +16,7 @@ export function Router() {
       children: [
         { path: '/', element: <HomePage /> },
         { path: PATH_DASHBOARD.aboutUs, element: <About /> },
+        { path: PATH_DASHBOARD.contactUs, element: <Contact /> },
       ],
     },
     // { path: "*", element: <Page404 /> },
