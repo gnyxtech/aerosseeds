@@ -1,6 +1,9 @@
 {
   "common": {
-    "chatOnWhatsapp": "Chat on Whatsapp"
+    "ownerName": "Sandeep patel",
+    "button": {
+      "chatOnWhatsapp": "Chat On Whatsapp"
+    }
   },
   "home": {
     "hero": {
@@ -17,9 +20,45 @@
   },
   "about": {
     "hero": {
-      "title": "About Aeros Seeds",
-      "subtitle": "We provide best seeds"
-    }
+      "our-story": "Our story",
+      "title": "Built by farmers, for farmers.",
+      "para-1": "Aeros Seeds and Biotech Farmers Producer Company was founded with a clear purpose — to empower Indian farmers with high-quality seeds that deliver consistent performance and better yields. With deep roots in agriculture and years of experience, we understand the real challenges faced in the field.",
+      "para-2": "Our journey began with a vision to bridge the gap between advanced agricultural science and practical farming needs. Today, Aeros Seeds stands as a trusted name among farmers, dealers, and agri businesses, committed to quality, reliability, and long-term growth."
+    },
+    "whatWeStandFor": {
+      "title": "What we stand for",
+      "boxes": [
+        {
+          "icon": "check_circle",
+          "title": "Quality First",
+          "description": "We deliver carefully tested, high-quality seeds that ensure better germination and strong crop performance."
+        },
+        {
+          "icon": "agriculture",
+          "title": "Farmer Focus",
+          "description": "Every product is designed keeping farmers’ real needs, challenges, and profitability in mind."
+        },
+        {
+          "icon": "build_circle",
+          "title": "Innovation",
+          "description": "We combine modern agricultural techniques with practical field knowledge to improve productivity."
+        },
+        {
+          "icon": "handshake",
+          "title": "Trust & Reliability",
+          "description": "We build long-term relationships with farmers and partners through honesty and consistent results."
+        }
+      ]
+    },
+    "ourVision": {
+      "title": "Our Vision",
+      "para": "To become one of India’s most trusted and preferred seed brands by delivering high-performance agricultural solutions that contribute to farmer success and sustainable growth."
+    },
+    "ourMission": {
+      "title": "Our Mission",
+      "para": "To provide reliable, high-quality seeds that enhance crop productivity, improve farmer income, and support the future of Indian agriculture through innovation and dedication."
+    },
+    "leadership": "Led by Sandeep Patel, Aeros Seeds is driven by experience, dedication, and a deep understanding of agriculture."
   },
   "nav": {
     "home": "Home",
