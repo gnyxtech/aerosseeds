@@ -5,6 +5,7 @@ import { HomePage } from '../pages/home/home';
 import { PATH_DASHBOARD } from './paths';
 import { About } from '../pages/about/about';
 import Contact from './../pages/contact/contact';
+import NotFound from '../pages/404page/pageNotFound';
 
 // ----------------------------------------------------------------------
 
@@ -21,6 +22,6 @@ export function Router() {
         { path: PATH_DASHBOARD.products, element: <About /> },
       ],
     },
-    // { path: "*", element: <Page404 /> },
+    { path: '*', element: <NotFound /> },
   ]);
 }

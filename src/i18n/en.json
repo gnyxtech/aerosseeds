@@ -8,7 +8,9 @@
     "button": {
       "chatOnWhatsapp": "Chat On Whatsapp",
       "browseSeeds": "Browse Seeds",
-      "enquireNow": "Enquire Now"
+      "enquireNow": "Enquire Now",
+      "goHome": "Go Home",
+      "goBack": "Go Back"
     }
   },
   "home": {
@@ -141,7 +143,7 @@
     "contact": {
       "heading": "Ready to plant smarter this season?",
       "subHeading": "Talk to our agronomy team — pricing, varieties for your soil, and direct dispatch. No forms, just WhatsApp.",
-      "rightButton" : "Chat on Whatsapp now",
+      "rightButton": "Chat on Whatsapp now",
       "rightText": "Or call us",
       "benefits": [
         "Free expert advice",
@@ -246,5 +248,10 @@
     },
     "copyright": "Aeros Seeds Co. All rights reserved.",
     "createdBy": "Crafted for Indian farmers · Made with ❤️"
+  },
+  "page404": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you are looking for doesn’t exist or has been moved.",
+    "logoTagline": "Aeros Seeds · Growing Trust"
   }
 }
