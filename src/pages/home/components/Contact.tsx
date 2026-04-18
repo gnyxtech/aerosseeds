@@ -48,7 +48,7 @@ function Contact() {
           </div>
 
           {/* Subtle background decoration to mimic the image's lighting */}
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-white/5 to-transparent pointer-events-none" />
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-white/5 to-transparent pointer-events-none" />
         </div>
       </div>
     </section>
