@@ -18,7 +18,7 @@ export function Router() {
         { path: PATH_DASHBOARD.home, element: <HomePage /> },
         { path: PATH_DASHBOARD.aboutUs, element: <About /> },
         { path: PATH_DASHBOARD.contactUs, element: <Contact /> },
-        { path: PATH_DASHBOARD.products, element: < /> },
+        { path: PATH_DASHBOARD.products, element: <About /> },
       ],
     },
     // { path: "*", element: <Page404 /> },
