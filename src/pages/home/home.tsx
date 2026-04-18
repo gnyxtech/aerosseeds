@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useI18n } from '../../i18n/provider';
+import Hero from '../../components/home/Hero';
+import FeaturedProducts from '../../components/home/FeaturedProducts';
+import TrustSection from '../../components/home/TrustSection';
 
 const HomePage = () => {
   const { setLang, t } = useI18n();
@@ -49,13 +52,9 @@ const HomePage = () => {
         </div>
       )}
 
-      <section className="p-10 text-center">
-        <h1 className="text-4xl font-bold text-primary">
-          {t('home.hero.title')}
-        </h1>
-
-        <p className="mt-4 text-lg text-secondary">{t('home.hero.subtitle')}</p>
-      </section>
+      <Hero/>
+      <FeaturedProducts/>
+      <TrustSection />
     </>
   );
 };
