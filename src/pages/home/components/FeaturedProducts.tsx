@@ -1,61 +1,30 @@
-import { APP_IMAGE } from '../../constants/image';
+import { useI18n } from '../../../i18n/provider';
 
-type Category = {
+
+export default function FeaturedProducts() {
+  const { t } = useI18n();
+
+  const products = t('home.featuredProducts.products', { returnObjects: true }) as Array<{
   title: string;
   subtitle: string;
   image: string;
-};
-
-const categories: Category[] = [
-  {
-    title: 'PDM-139',
-    subtitle: 'MOONG SEEDS',
-    image: 'pdm139'
-  },
-  {
-    title: 'S-444',
-    subtitle: 'MOONG SEEDS',
-    image: '/assets/products/moongseeds-s444.webp'
-  },
-  {
-    title: 'Hybrid Maize 775',
-    subtitle: 'Maize',
-    image: '/assets/products/hybridmaize-775.webp'
-  },
-  {
-    title: 'Hybrid Maize 771',
-    subtitle: 'Maize',
-    image: '/assets/products/hybridmaize-771.webp'
-  },
-  {
-    title: 'Soyabean Jwala-13',
-    subtitle: 'Soyabean',
-    image: '/assets/products/jwala13.webp'
-  },
-  {
-    title: 'Chia Seeds',
-    subtitle: 'Chia Seeds',
-    image: '/assets/products/chiaseeds.webp'
-  },
-];
-
-export default function FeaturedProducts() {
+}>;
   return (
-    <section className="w-full bg-[#fffaf3] px-6 py-16 md:py-24">
+    <section className="w-full px-6 py-16 md:py-24">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-xs tracking-[0.3em] text-primary uppercase">
-              Our Range
+              {t('home.featuredProducts.heading')}
             </p>
             <h2 className="mt-2 text-3xl font-semibold text-gray-900 md:text-4xl">
-              Seeds for every season
+              {t('home.featuredProducts.subHeading')}
             </h2>
           </div>
 
           <button className="flex items-center gap-2 text-sm font-medium text-primary ">
-            <span className="hover:underline"> All products </span>
+            <span className="hover:underline">  {t('home.featuredProducts.allProducts')}</span>
             <span
               className="material-symbols-outlined"
               style={{ fontSize: '14px' }}
@@ -67,7 +36,7 @@ export default function FeaturedProducts() {
 
         {/* Cards */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {categories.map((item, idx) => (
+          {products.map((item, idx) => (
             <div
               key={idx}
               className="group relative h-90 overflow-hidden rounded-3xl shadow-md"
@@ -92,7 +61,7 @@ export default function FeaturedProducts() {
 
                 <div className="mt-3 flex items-center gap-3">
                   <button className="rounded-full bg-primary px-4 py-1 text-xs font-medium text-white hover:opacity-90 transition flex items-center gap-2">
-                    <span>Enquire now</span>{' '}
+                    <span>{t('common.button.enquireNow')}</span>{' '}
                     <span
                       className="material-symbols-outlined"
                       style={{ fontSize: '12px' }}
