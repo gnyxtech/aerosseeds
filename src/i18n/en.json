@@ -1,14 +1,21 @@
 {
   "common": {
-    "ownerNamae": "Sandeep patel",
+    "ownerName": "Sandeep patel",
     "button": {
       "chatOnWhatsapp": "Chat On Whatsapp"
     }
   },
   "home": {
     "hero": {
-      "title": "Grow Better with Aeros Seeds",
-      "subtitle": "High quality seeds"
+      "leftBadge": "TRUSTED BY 50,000+ FARMERS",
+      "title1": "Premium Seeds.",
+      "title2": "Better Farming Growth.",
+      "description": "Aero Seeds is a trusted agriculture seed and biotech company dedicated to providing high-quality seeds for Indian farmers. We focus on productivity, crop performance, and farmer success.",
+      "button": "Browse Seeds",
+      "rightBadge": "Premium Seeds",
+      "stat1": "Farmers served",
+      "stat2": "Germination",
+      "stat3": "Varieties"
     }
   },
   "about": {
