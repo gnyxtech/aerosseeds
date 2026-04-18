@@ -1,1 +1,7 @@
 @import 'tailwindcss';
+@config "../tailwind.config.js";
+
+:root {
+  --primary: 38 103 57;
+  --secondary: 248 198 85;
+}
