@@ -1,4 +1,4 @@
-import { useI18n } from '../../i18n/provider';
+import { useI18n } from '../../../i18n/provider';
 
 function Hero() {
   const { t } = useI18n();
@@ -28,11 +28,11 @@ function Hero() {
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <button className="flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white hover:opacity-90 transition">
               <span className="material-symbols-outlined">chat</span>
-              {t('common.chatOnWhatsapp')}
+              {t('common.button.chatOnWhatsapp')}
             </button>
 
             <button className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 text-sm font-medium text-gray-800 hover:bg-gray-50 transition">
-              {t('home.hero.button')}{' '}
+              {t('common.button.browseSeeds')}{' '}
               <span className="material-symbols-outlined" style={{ fontSize: "14px" }}>
                 line_end_arrow_notch
               </span>

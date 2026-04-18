@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useI18n } from '../../i18n/provider';
-import Hero from '../../components/home/Hero';
-import FeaturedProducts from '../../components/home/FeaturedProducts';
-import TrustSection from '../../components/home/TrustSection';
+import Hero from './components/Hero';
+import FeaturedProducts from './components/FeaturedProducts';
+import TrustSection from './components/TrustSection';
+import Process from './components/Process';
+import Testimonials from './components/Testinomials';
+import Contact from './components/Contact';
 
 const HomePage = () => {
   const { setLang, t } = useI18n();
@@ -55,6 +58,9 @@ const HomePage = () => {
       <Hero/>
       <FeaturedProducts/>
       <TrustSection />
+      <Process />
+      <Testimonials/>
+      <Contact />
     </>
   );
 };
