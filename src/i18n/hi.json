@@ -1,0 +1,18 @@
+{
+  "home": {
+    "hero": {
+      "title": "Aeros Seeds के साथ बेहतर खेती करें",
+      "subtitle": "उच्च गुणवत्ता वाले बीज"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Aeros Seeds के बारे में",
+      "subtitle": "हम बेहतरीन बीज देते हैं"
+    }
+  },
+  "nav": {
+    "home": "होम",
+    "about": "हमारे बारे में"
+  }
+}

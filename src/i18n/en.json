@@ -1,0 +1,18 @@
+{
+  "home": {
+    "hero": {
+      "title": "Grow Better with Aeros Seeds",
+      "subtitle": "High quality seeds"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Aeros Seeds",
+      "subtitle": "We provide best seeds"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  }
+}
