@@ -2,6 +2,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 import { Navbar } from '../components/nav';
 import Footer from '../components/footer';
+import FloatingActions from './components/floatingMenu';
 
 const Layout = () => {
   const location = useLocation();
@@ -42,12 +43,7 @@ const Layout = () => {
         <Footer />
       </div>
 
-      {/* FLOATING WHATSAPP BUTTON */}
-      <div className="fixed bottom-6 right-6">
-        <button className="bg-green-600 hover:bg-green-700 w-14 h-14 rounded-full flex items-center justify-center text-white shadow-lg">
-          <span className="material-symbols-outlined">message</span>
-        </button>
-      </div>
+      <FloatingActions />
     </div>
   );
 };
