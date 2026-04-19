@@ -259,42 +259,94 @@
     "subHeading": "श्रेणी के अनुसार फ़िल्टर करें या खोजें — हर किस्म के साथ सीधे व्हाट्सऐप पर पूछताछ की सुविधा उपलब्ध है।",
     "search": "खोजें",
     "catalogue": "कैटलॉग",
+    "categories": [
+      "सभी",
+      "मूंग के बीज",
+      "सोयाबीन",
+      "मक्का",
+      "चिया बीज",
+      "सरसों के बीज"
+    ],
     "products": [
       {
         "title": "PDM-139",
-        "subtitle": "मूंग बीज",
-        "category": "तिलहन और दालें",
+        "category": "मूंग के बीज",
         "image": "/assets/products/moongseeds-pdm139.webp"
       },
       {
         "title": "S-444",
-        "subtitle": "मूंग बीज",
-        "category": "तिलहन और दालें",
+        "category": "मूंग के बीज",
         "image": "/assets/products/moongseeds-s444.webp"
       },
       {
+        "title": "डबल तलवार",
+        "category": "मूंग के बीज",
+        "image": "/assets/products/moongseedsdoubletalvar.webp"
+      },
+      {
+        "title": "Hum-12",
+        "category": "मूंग के बीज",
+        "image": "/assets/products/moongseedshum12.webp"
+      },
+      {
+        "title": "झुमकी",
+        "category": "मूंग के बीज",
+        "image": "/assets/products/moongseedsjhumki.webp"
+      },
+      {
+        "title": "मेघा",
+        "category": "मूंग के बीज",
+        "image": "/assets/products/moongseedsmegha.webp"
+      },
+      {
+        "title": "शिखा IPM-410",
+        "category": "मूंग के बीज",
+        "image": "/assets/products/moongseedsshikhaipm410.webp"
+      },
+      {
+        "title": "विराट",
+        "category": "मूंग के बीज",
+        "image": "/assets/products/moongseedvirat.webp"
+      },
+      {
+        "title": "संस्कृति PDM-139",
+        "category": "मूंग के बीज",
+        "image": "/assets/products/sanskritimoongseeds-pdm139.webp"
+      },
+      {
         "title": "हाइब्रिड मक्का 775",
-        "subtitle": "मक्का",
-        "category": "अनाज और धान्य",
+        "category": "मक्का",
         "image": "/assets/products/hybridmaize-775.webp"
       },
       {
         "title": "हाइब्रिड मक्का 771",
-        "subtitle": "मक्का",
-        "category": "अनाज और धान्य",
+        "category": "मक्का",
         "image": "/assets/products/hybridmaize-771.webp"
       },
       {
         "title": "सोयाबीन ज्वाला-13",
-        "subtitle": "सोयाबीन",
-        "category": "तिलहन और दालें",
+        "category": "सोयाबीन",
         "image": "/assets/products/jwala13.webp"
       },
       {
+        "title": "सोयाबीन ज्वाला-07",
+        "category": "सोयाबीन",
+        "image": "/assets/products/jwala07.webp"
+      },
+      {
         "title": "चिया बीज",
-        "subtitle": "चिया बीज",
-        "category": "तिलहन और दालें",
+        "category": "चिया बीज",
         "image": "/assets/products/chiaseeds.webp"
+      },
+      {
+        "title": "सरसों",
+        "category": "सरसों के बीज",
+        "image": "/assets/products/mustardseeds.webp"
+      },
+      {
+        "title": "सरसों 35-36",
+        "category": "सरसों के बीज",
+        "image": "/assets/products/mustardseeds3536.webp"
       }
     ]
   }

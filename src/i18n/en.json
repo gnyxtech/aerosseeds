@@ -259,43 +259,89 @@
     "subHeading": "Filter by category or search — every variety comes with a direct WhatsApp enquiry.",
     "search": "Search",
     "catalogue": "CATALOGUE",
+    "categories": ["All", "Moong Seeds", "Soyabean", "Maize", "Chia Seeds", "Mustard Seeds"],
     "products": [
       {
         "title": "PDM-139",
-        "subtitle": "MOONG SEEDS",
-        "category": "Oilseeds & Pulses",
+        "category": "Moong Seeds",
         "image": "/assets/products/moongseeds-pdm139.webp"
       },
       {
         "title": "S-444",
-        "subtitle": "MOONG SEEDS",
-        "category": "Oilseeds & Pulses",
+        "category": "Moong Seeds",
         "image": "/assets/products/moongseeds-s444.webp"
       },
       {
+        "title": "Double Talvar",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsdoubletalvar.webp"
+      },
+      {
+        "title": "Hum-12",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedshum12.webp"
+      },
+      {
+        "title": "Jhumki",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsjhumki.webp"
+      },
+      {
+        "title": "Megha",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsmegha.webp"
+      },
+      {
+        "title": "Shikha IPM-410",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsshikhaipm410.webp"
+      },
+      {
+        "title": "Virat",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedvirat.webp"
+      },
+      {
+        "title": "Sanskriti PDM-139",
+        "category": "Moong Seeds",
+        "image": "/assets/products/sanskritimoongseeds-pdm139.webp"
+      },
+      {
         "title": "Hybrid Maize 775",
-        "subtitle": "Maize",
-        "category": "Cereals & Grains",
+        "category": "Maize",
         "image": "/assets/products/hybridmaize-775.webp"
       },
       {
         "title": "Hybrid Maize 771",
-        "subtitle": "Maize",
-        "category": "Cereals & Grains",
+        "category": "Maize",
         "image": "/assets/products/hybridmaize-771.webp"
       },
       {
         "title": "Soyabean Jwala-13",
-        "subtitle": "Soyabean",
-        "category": "Oilseeds & Pulses",
+        "category": "Soyabean",
         "image": "/assets/products/jwala13.webp"
       },
       {
+        "title": "Soyabean Jwala-07",
+        "category": "Soyabean",
+        "image": "/assets/products/jwala07.webp"
+      },
+      {
         "title": "Chia Seeds",
-        "subtitle": "Chia Seeds",
-        "category": "Oilseeds & Pulses",
+        "category": "Chia Seeds",
         "image": "/assets/products/chiaseeds.webp"
+      },
+      {
+        "title": "Mustard",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds.webp"
+      },
+      {
+        "title": "Mustard 35-36",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds3536.webp"
       }
+      
     ]
   }
 }
