@@ -27,8 +27,8 @@ const Products = () => {
       activeIndex === 0 || item.category === categories[activeIndex];
 
     const matchesSearch =
-      item.title.toLowerCase().includes(search.toLowerCase()) ||
-      item.subtitle.toLowerCase().includes(search.toLowerCase());
+      item?.title?.toLowerCase().includes(search?.toLowerCase()) ||
+      item?.subtitle?.toLowerCase().includes(search?.toLowerCase());
 
     return matchesCategory && matchesSearch;
   });
@@ -138,7 +138,7 @@ const Products = () => {
             </div>
           ))
         ) : (
-          <p className="text-gray-500 col-span-full text-center"> 
+          <p className="text-gray-500 col-span-full text-center">
             No products found
           </p>
         )}

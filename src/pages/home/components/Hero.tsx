@@ -1,8 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../../../i18n/provider';
 import { sendWhatsAppMessage } from '../../../utils/whatsapp';
+import { PATH_DASHBOARD } from '../../../routes/paths';
 
 function Hero() {
   const { t } = useI18n();
+  const navigate = useNavigate();
 
   const handleWhatsapp = () => {
     const message = t('whatsapp.hero');
@@ -28,25 +31,33 @@ function Hero() {
         {/* LEFT CONTENT */}
         <div>
           {/* Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-gray-400 text-black bg-secondary px-4 py-1 text-sm">
+          <div
+            data-aos="fade-down"
+            className="mb-6 inline-flex items-center gap-2 rounded-full border border-gray-400 text-black bg-secondary px-4 py-1 text-sm"
+          >
             <span className="h-2 w-2 rounded-full bg-black"></span>
             {t('home.hero.leftBadge')}
           </div>
 
           {/* Heading */}
           <h1 className="text-4xl font-bold leading-tight flex flex-col md:text-5xl">
-            <span className="text-white">{t('home.hero.title1')}</span>
-            <span className="text-primary">{t('home.hero.title2')}</span>
+            <span data-aos="fade-right" className="text-white">
+              {t('home.hero.title1')}
+            </span>
+            <span data-aos="fade-left" className="text-primary">
+              {t('home.hero.title2')}
+            </span>
           </h1>
 
           {/* Description */}
-          <p className="mt-5 max-w-xl text-white">
+          <p data-aos="zoom-in" className="mt-5 max-w-xl text-white">
             {t('home.hero.description')}
           </p>
 
           {/* Buttons */}
           <div className="mt-8 flex items-center gap-2 sm:gap-4 text-xs sm:text-sm">
             <button
+              data-aos="fade-right"
               className="flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-medium text-white hover:opacity-90 transition cursor-pointer"
               onClick={handleWhatsapp}
             >
@@ -59,7 +70,11 @@ function Hero() {
               {t('common.button.chatOnWhatsapp')}
             </button>
 
-            <button className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 font-medium text-gray-800 hover:bg-gray-50 transition cursor-pointer">
+            <button
+              data-aos="fade-left"
+              className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 font-medium text-gray-800 hover:bg-gray-50 transition cursor-pointer"
+              onClick={() => navigate(PATH_DASHBOARD.products)}
+            >
               {t('common.button.browseSeeds')}{' '}
               <span
                 className="material-symbols-outlined"

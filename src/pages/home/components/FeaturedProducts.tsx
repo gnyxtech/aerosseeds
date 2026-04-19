@@ -1,21 +1,29 @@
+import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../../../i18n/provider';
-
+import { PATH_DASHBOARD } from '../../../routes/paths';
 
 export default function FeaturedProducts() {
   const { t } = useI18n();
+  const navigate = useNavigate();
 
-  const products = t('home.featuredProducts.products', { returnObjects: true }) as Array<{
-  title: string;
-  subtitle: string;
-  image: string;
-}>;
+  const products = t('home.featuredProducts.products', {
+    returnObjects: true,
+  }) as Array<{
+    title: string;
+    subtitle: string;
+    image: string;
+  }>;
   return (
     <section className="w-full px-6 py-16 md:py-24">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-xs tracking-[0.3em] text-primary uppercase">
+            <p
+              className="text-xs tracking-[0.3em] text-primary uppercase"
+              data-aos="fade-right"
+              data-aos-offset="10"
+            >
               {t('home.featuredProducts.heading')}
             </p>
             <h2 className="mt-2 text-3xl font-semibold text-gray-900 md:text-4xl">
@@ -23,8 +31,14 @@ export default function FeaturedProducts() {
             </h2>
           </div>
 
-          <button className="flex items-center gap-2 text-sm font-medium text-primary ">
-            <span className="hover:underline">  {t('home.featuredProducts.allProducts')}</span>
+          <button
+            className="flex items-center gap-2 text-sm font-medium text-primary "
+            onClick={() => navigate(PATH_DASHBOARD.products)}
+          >
+            <span className="hover:underline">
+              {' '}
+              {t('home.featuredProducts.allProducts')}
+            </span>
             <span
               className="material-symbols-outlined"
               style={{ fontSize: '14px' }}

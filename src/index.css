@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @config "../tailwind.config.js";
-
+@import 'aos/dist/aos.css';
 :root {
   --primary: 38 103 57;
   --secondary: 248 198 85;
