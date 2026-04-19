@@ -3,6 +3,7 @@ import { useI18n } from '../i18n/provider';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { PATH_DASHBOARD } from '../routes/paths';
 import { APP_IMAGE } from './../constants/image';
+import { sendWhatsAppMessage } from '../utils/whatsapp';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -20,6 +21,12 @@ const Navbar = () => {
 
   const toggleLang = () => {
     setLang(lang === 'en' ? 'hi' : 'en');
+  };
+
+  const handleWhatsapp = () => {
+    const message = t('whatsapp.navbar');
+
+    sendWhatsAppMessage({ message });
   };
 
   return (
@@ -81,7 +88,10 @@ const Navbar = () => {
           </button>
 
           {/* WhatsApp */}
-          <button className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition shadow-sm hover:shadow-md">
+          <button
+            className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition shadow-sm hover:shadow-md cursor-pointer"
+            onClick={handleWhatsapp}
+          >
             <span className="material-symbols-outlined">chat</span>
             {t('common.button.chatOnWhatsapp')}
           </button>
@@ -93,11 +103,8 @@ const Navbar = () => {
             onClick={toggleLang}
             className="flex items-center gap-1 px-3 py-1 border rounded-full hover:bg-gray-100 transition"
           >
-            {/* <span className="material-symbols-outlined">language</span> */}
             <img
-              src={
-                lang === 'en' ? '/assets/svgs/uk.svg' : '/assets/svgs/india.svg'
-              }
+              src={lang === 'en' ? APP_IMAGE.ukSVG : APP_IMAGE.indiaSVG}
               alt={lang === 'en' ? 'English' : 'Hindi'}
               className="h-5 w-5"
             />
@@ -139,7 +146,10 @@ const Navbar = () => {
             })}
           </ul>
 
-          <button className="w-full flex justify-center items-center gap-2 bg-green-600 text-white py-2 rounded-lg">
+          <button
+            className="w-full flex justify-center items-center gap-2 bg-green-600 text-white py-2 rounded-lg cursor-pointer"
+            onClick={handleWhatsapp}
+          >
             <span className="material-symbols-outlined">chat</span>
             {t('common.button.chatOnWhatsapp')}
           </button>

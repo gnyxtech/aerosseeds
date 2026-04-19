@@ -13,6 +13,15 @@ const Footer = () => {
     { name: 'contact', path: PATH_DASHBOARD.contactUs },
   ];
 
+  // -------------------------------------------
+  // can use when whatsApp button will uncomment
+  // -------------------------------------------
+
+  // const handleWhatsapp = () => {
+  //   const message = t('whatsapp.footer');
+  //   sendWhatsAppMessage({ message });
+  // };
+
   return (
     <footer className="bg-secondary/10  text-[#1a2b1d] px-6 py-12 md:px-12">
       <div className="max-w-7xl mx-auto">
@@ -26,14 +35,25 @@ const Footer = () => {
             <p className="text-sm leading-6 mb-6 max-w-md">
               {t('footer.description')}
             </p>
-            <div className="flex items-center gap-4 mb-6 text-primary">
-             <a href="https://www.instagram.com/aeros_seeds" target='_blank'> <img src="/assets/svgs/instagram.svg" className='w-6 text-primary' alt="" /></a>
-             {/* <a href="https://www.instagram.com/aeros_seeds" target='_blank'> <img src="/assets/svgs/facebook.svg" className='w-6 text-primary' alt="" /></a> */}
-            </div>
 
-            {/* <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-medium transition">
+            {/* code commented because they want social icons */}
+
+            {/* <button
+              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-medium transition cursor-pointer"
+              onClick={handleWhatsapp}
+            >
               {t('common.button.chatOnWhatsapp')}
             </button> */}
+            <div className="flex items-center gap-4 mb-6 text-primary">
+              <a href="https://www.instagram.com/aeros_seeds" target="_blank">
+                {' '}
+                <img
+                  src={APP_IMAGE.instagramSVG}
+                  className="w-6 text-primary"
+                  alt="instagram"
+                />
+              </a>
+            </div>
           </div>
 
           {/* CENTER */}

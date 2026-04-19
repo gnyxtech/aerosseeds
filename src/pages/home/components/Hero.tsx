@@ -1,7 +1,14 @@
 import { useI18n } from '../../../i18n/provider';
+import { sendWhatsAppMessage } from '../../../utils/whatsapp';
 
 function Hero() {
   const { t } = useI18n();
+
+  const handleWhatsapp = () => {
+    const message = t('whatsapp.hero');
+
+    sendWhatsAppMessage({ message });
+  };
   return (
     <section className="relative h-dvh w-full px-6 py-10 overflow-hidden flex items-center text-center">
       <video
@@ -11,7 +18,10 @@ function Hero() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-[-1]"
       >
-        <source src="https://cdn.pixabay.com/video/2023/03/01/152740-803732906_large.mp4" type="video/mp4" />
+        <source
+          src="https://cdn.pixabay.com/video/2023/03/01/152740-803732906_large.mp4"
+          type="video/mp4"
+        />
       </video>
       <div className="absolute inset-0 bg-black/40 z-[-1]"></div>
       <div className="sm:mx-auto max-w-7xl">
@@ -35,8 +45,11 @@ function Hero() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-8 flex items-center justify-center gap-2 sm:gap-4 text-xs sm:text-sm">
-            <button className="flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-medium text-white hover:opacity-90 transition">
+          <div className="mt-8 flex items-center gap-2 sm:gap-4 text-xs sm:text-sm">
+            <button
+              className="flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-medium text-white hover:opacity-90 transition cursor-pointer"
+              onClick={handleWhatsapp}
+            >
               <span
                 className="material-symbols-outlined"
                 style={{ fontSize: '14px' }}
@@ -46,7 +59,7 @@ function Hero() {
               {t('common.button.chatOnWhatsapp')}
             </button>
 
-            <button className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 font-medium text-gray-800 hover:bg-gray-50 transition">
+            <button className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 font-medium text-gray-800 hover:bg-gray-50 transition cursor-pointer">
               {t('common.button.browseSeeds')}{' '}
               <span
                 className="material-symbols-outlined"
