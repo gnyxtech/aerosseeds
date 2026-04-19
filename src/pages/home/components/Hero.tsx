@@ -45,7 +45,7 @@ function Hero() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-8 flex items-center gap-2 sm:gap-4 text-xs sm:text-sm">
+          <div className="mt-8 flex items-center justify-center gap-2 sm:gap-4 text-xs sm:text-sm">
             <button
               className="flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-medium text-white hover:opacity-90 transition cursor-pointer"
               onClick={handleWhatsapp}
