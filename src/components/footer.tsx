@@ -2,7 +2,6 @@ import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../i18n/provider';
 import { PATH_DASHBOARD } from '../routes/paths';
 import { APP_IMAGE } from '../constants/image';
-import { sendWhatsAppMessage } from '../utils/whatsapp';
 
 const Footer = () => {
   const { t } = useI18n();
@@ -14,11 +13,14 @@ const Footer = () => {
     { name: 'contact', path: PATH_DASHBOARD.contactUs },
   ];
 
-  const handleWhatsapp = () => {
-    const message = t('whatsapp.footer');
+  // -------------------------------------------
+  // can use when whatsApp button will uncomment
+  // -------------------------------------------
 
-    sendWhatsAppMessage({ message });
-  };
+  // const handleWhatsapp = () => {
+  //   const message = t('whatsapp.footer');
+  //   sendWhatsAppMessage({ message });
+  // };
 
   return (
     <footer className="bg-secondary/10  text-[#1a2b1d] px-6 py-12 md:px-12">
@@ -34,6 +36,8 @@ const Footer = () => {
               {t('footer.description')}
             </p>
 
+            {/* code commented because they want social icons */}
+
             {/* <button
               className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-medium transition cursor-pointer"
               onClick={handleWhatsapp}
@@ -44,12 +48,11 @@ const Footer = () => {
               <a href="https://www.instagram.com/aeros_seeds" target="_blank">
                 {' '}
                 <img
-                  src="/assets/svgs/instagram.svg"
+                  src={APP_IMAGE.instagramSVG}
                   className="w-6 text-primary"
-                  alt=""
+                  alt="instagram"
                 />
               </a>
-              {/* <a href="https://www.instagram.com/aeros_seeds" target='_blank'> <img src="/assets/svgs/facebook.svg" className='w-6 text-primary' alt="" /></a> */}
             </div>
           </div>
 

@@ -103,11 +103,8 @@ const Navbar = () => {
             onClick={toggleLang}
             className="flex items-center gap-1 px-3 py-1 border rounded-full hover:bg-gray-100 transition"
           >
-            {/* <span className="material-symbols-outlined">language</span> */}
             <img
-              src={
-                lang === 'en' ? '/assets/svgs/uk.svg' : '/assets/svgs/india.svg'
-              }
+              src={lang === 'en' ? APP_IMAGE.ukSVG : APP_IMAGE.indiaSVG}
               alt={lang === 'en' ? 'English' : 'Hindi'}
               className="h-5 w-5"
             />

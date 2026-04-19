@@ -3,7 +3,12 @@ export const APP_IMAGE = {
   farm: '/assets/images/farms-crops.webp',
   factory: '/assets/images/factory.webp',
   logo: '/assets/images/logo.webp',
-  whatsappSVG: '/whatsapp.svg',
+  whatsappSVG: '/assets/svgs/whatsapp.svg',
+  facebookSVG: '/assets/svgs/facebook.svg',
+  indiaSVG: '/assets/svgs/india.svg',
+  instagramSVG: '/assets/svgs/instagram.svg',
+  instagramWhiteSVG: '/assets/svgs/instagram-white.svg',
+  ukSVG: '/assets/svgs/uk.svg',
   products: {
     chia: '/assets/products/chiaseeds.webp',
     maize771: '/assets/products/hybridmaize-771.webp',

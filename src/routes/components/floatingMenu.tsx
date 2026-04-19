@@ -1,67 +1,62 @@
 import { useState } from 'react';
 import { sendWhatsAppMessage } from '../../utils/whatsapp';
+import { APP_IMAGE } from '../../constants/image';
+import { useI18n } from '../../i18n/provider';
 
-const FloatingActions = ({ t }: any) => {
+const FloatingActions = () => {
   const [open, setOpen] = useState(false);
+  const { t } = useI18n();
 
-  const toggleMenu = () => setOpen(!open);
+  const handleWhatsapp = () => {
+    const message = t('whatsapp.floating');
 
-  const actions = [
-    {
-      icon: 'call',
-      label: 'Call',
-      onClick: () => window.open('tel:+919329202018'),
-    },
-    {
-      icon: 'chat',
-      label: 'WhatsApp',
-      onClick: () => sendWhatsAppMessage({ message: t('whatsapp.floating') }),
-    },
-    {
-      icon: 'photo_camera',
-      label: 'Instagram',
-      onClick: () => window.open('https://instagram.com', '_blank'),
-    },
-    {
-      icon: 'thumb_up',
-      label: 'Facebook',
-      onClick: () => window.open('https://facebook.com', '_blank'),
-    },
-  ];
+    sendWhatsAppMessage({ message });
+  };
 
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col items-end gap-3 z-50">
-      {/* OPTIONS */}
+    <div className="fixed bottom-6 right-6 flex flex-col items-center gap-3 z-50">
+      {/* ACTION BUTTONS */}
       <div
-        className={`flex flex-col items-end gap-3 transition-all duration-300 ${
+        className={`flex flex-col items-center gap-3 transition-all duration-300 ${
           open
             ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-5 pointer-events-none'
         }`}
       >
-        {actions.map((action, index) => (
-          <button
-            key={index}
-            onClick={action.onClick}
-            className="flex items-center gap-2 bg-white text-black px-3 py-2 rounded-full shadow-md hover:scale-105 transition"
-          >
-            <span className="material-symbols-outlined">{action.icon}</span>
-            <span className="text-sm">{action.label}</span>
-          </button>
-        ))}
+        {/* CALL */}
+        <button
+          onClick={() => window.open('tel:+919329202018')}
+          className="w-14 h-14 rounded-full bg-green-500 flex items-center justify-center text-white shadow-lg hover:scale-110 transition"
+        >
+          <span className="material-symbols-outlined">call</span>
+        </button>
+
+        {/* INSTAGRAM */}
+        <button
+          onClick={() => window.open('https://www.instagram.com/aeros_seeds')}
+          className="w-14 h-14 rounded-full bg-green-400 flex items-center justify-center text-white shadow-lg hover:scale-110 transition p-3"
+        >
+          <img src={APP_IMAGE.instagramWhiteSVG} alt="instagram" />
+        </button>
+
+        {/* WHATSAPP */}
+        <button
+          onClick={handleWhatsapp}
+          className="w-14 h-14 rounded-full bg-green-400 flex items-center justify-center text-white shadow-lg hover:scale-110 transition p-3"
+        >
+          <img src={APP_IMAGE.whatsappSVG} alt="whatsAPP" />
+        </button>
       </div>
 
       {/* MAIN BUTTON */}
       <button
-        onClick={toggleMenu}
-        className="bg-green-600 hover:bg-green-700 w-14 h-14 rounded-full flex items-center justify-center text-white shadow-lg transition-transform duration-300"
+        onClick={() => setOpen(!open)}
+        className={`w-14 h-14 rounded-full flex items-center justify-center text-white shadow-lg transition-all duration-300 ${
+          open ? 'bg-black rotate-90' : 'bg-black'
+        }`}
       >
-        <span
-          className={`material-symbols-outlined transition-transform duration-300 ${
-            open ? 'rotate-45' : 'rotate-0'
-          }`}
-        >
-          add
+        <span className="material-symbols-outlined">
+          {open ? 'close' : 'message'}
         </span>
       </button>
     </div>
