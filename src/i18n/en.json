@@ -259,7 +259,14 @@
     "subHeading": "Filter by category or search — every variety comes with a direct WhatsApp enquiry.",
     "search": "Search",
     "catalogue": "CATALOGUE",
-    "categories": ["All", "Moong Seeds", "Soyabean", "Maize", "Chia Seeds", "Mustard Seeds"],
+    "categories": [
+      "All",
+      "Moong Seeds",
+      "Soyabean",
+      "Maize",
+      "Chia Seeds",
+      "Mustard Seeds"
+    ],
     "products": [
       {
         "title": "PDM-139",
@@ -329,7 +336,16 @@
       {
         "title": "Chia Seeds",
         "category": "Chia Seeds",
-        "image": "/assets/products/chiaseeds.webp"
+        "image": "/assets/products/chiaseeds.webp",
+        "benefits": [
+          "This variety gives a higher yield compared to normal Chia.",
+          "Maturity Period: It matures and becomes ready for harvest in approximately 110 to 120 days.",
+          "Sowing: 1 kg of seeds is sufficient for sowing in 1 acre.",
+          "Irrigation: It requires 4-5 light irrigations.",
+          "Yield: A production of approximately 6 quintals per acre can be obtained.",
+          "Frost Resistant: This variety is tolerant to frost conditions.",
+          "Disease Resistance: It is less susceptible to diseases."
+        ]
       },
       {
         "title": "Mustard",
@@ -341,7 +357,6 @@
         "category": "Mustard Seeds",
         "image": "/assets/products/mustardseeds3536.webp"
       }
-      
     ]
   }
 }

@@ -5,6 +5,7 @@ const Products = () => {
   const { t } = useI18n();
   const [search, setSearch] = useState('');
   const [activeIndex, setActiveIndex] = useState(0);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
   const categories = t('products.categories', {
     returnObjects: true,
@@ -17,10 +18,13 @@ const Products = () => {
     subtitle: string;
     category: string;
     image: string;
+    description: string;
+    benefits: string[];
   }>;
 
   const filteredProducts = products.filter((item) => {
-    const matchesCategory = activeIndex === 0 || item.category === categories[activeIndex];
+    const matchesCategory =
+      activeIndex === 0 || item.category === categories[activeIndex];
 
     const matchesSearch =
       item.title.toLowerCase().includes(search.toLowerCase()) ||
@@ -98,6 +102,34 @@ const Products = () => {
                 </p>
 
                 <h3 className="mt-1 text-lg font-semibold">{item.title}</h3>
+
+                <p className="mt-1 text-xs text-white/80 line-clamp-2">
+                  {item.description}
+                </p>
+
+                {expandedIndex === idx ? (
+                  <ul className="mt-2 text-[10px] text-white/70 space-y-1">
+                    {item.benefits.map((b, i) => (
+                      <li key={i}>• {b}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <ul className="mt-2 text-[10px] text-white/70 space-y-1">
+                    {item.benefits?.slice(0, 2).map((b, i) => (
+                      <li key={i}>• {b}</li>
+                    ))}
+                  </ul>
+                )}
+                {item.benefits?.length > 2 && (
+                  <button
+                    onClick={() =>
+                      setExpandedIndex(expandedIndex === idx ? null : idx)
+                    }
+                    className="text-[10px] text-white mt-1 mr-4 underline"
+                  >
+                    {expandedIndex === idx ? 'View less' : 'View more'}
+                  </button>
+                )}
 
                 <button className="mt-3 rounded-full bg-primary px-4 py-1 text-xs text-white">
                   {t('common.button.enquireNow')}
