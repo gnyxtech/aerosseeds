@@ -3,8 +3,18 @@ import { useI18n } from '../../../i18n/provider';
 function Hero() {
   const { t } = useI18n();
   return (
-    <section className="w-full  px-6 py-10">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
+    <section className="relative h-dvh w-full px-6 py-10 overflow-hidden flex items-center text-center">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-[-1]"
+      >
+        <source src="https://cdn.pixabay.com/video/2023/03/01/152740-803732906_large.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black/40 z-[-1]"></div>
+      <div className="sm:mx-auto max-w-7xl">
         {/* LEFT CONTENT */}
         <div>
           {/* Badge */}
@@ -15,19 +25,24 @@ function Hero() {
 
           {/* Heading */}
           <h1 className="text-4xl font-bold leading-tight flex flex-col md:text-5xl">
-            <span className="">{t('home.hero.title1')}</span>
+            <span className="text-white">{t('home.hero.title1')}</span>
             <span className="text-primary">{t('home.hero.title2')}</span>
           </h1>
 
           {/* Description */}
-          <p className="mt-5 max-w-xl text-gray-600">
+          <p className="mt-5 max-w-xl text-white">
             {t('home.hero.description')}
           </p>
 
           {/* Buttons */}
-          <div className="mt-8 flex items-center gap-2 sm:gap-4 text-xs sm:text-sm">
+          <div className="mt-8 flex items-center justify-center gap-2 sm:gap-4 text-xs sm:text-sm">
             <button className="flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-medium text-white hover:opacity-90 transition">
-              <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>chat</span>
+              <span
+                className="material-symbols-outlined"
+                style={{ fontSize: '14px' }}
+              >
+                chat
+              </span>
               {t('common.button.chatOnWhatsapp')}
             </button>
 
@@ -43,24 +58,30 @@ function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="mt-10 flex max-sm:justify-between gap-4 sm:gap-10 border-t border-gray-200 pt-6">
+          <div className="mt-10 flex max-sm:justify-between mx-auto justify-center gap-4 sm:gap-10 border-t w-fit border-gray-400 pt-6">
             <div>
-              <p className="text-xl sm:text-2xl font-semibold text-gray-900">50K+</p>
-              <p className="text-sm text-gray-500">{t('home.hero.stat1')}</p>
+              <p className="text-xl sm:text-2xl font-semibold text-white">
+                50K+
+              </p>
+              <p className="text-sm text-gray-300">{t('home.hero.stat1')}</p>
             </div>
             <div>
-              <p className="max-sm:text-xl text-2xl font-semibold text-gray-900">95%+</p>
-              <p className="text-sm text-gray-500">{t('home.hero.stat2')}</p>
+              <p className="max-sm:text-xl text-2xl font-semibold text-white">
+                95%+
+              </p>
+              <p className="text-sm text-gray-300">{t('home.hero.stat2')}</p>
             </div>
             <div>
-              <p className="max-sm:text-xl text-2xl font-semibold text-gray-900">120+</p>
-              <p className="text-sm text-gray-500">{t('home.hero.stat3')}</p>
+              <p className="max-sm:text-xl text-2xl font-semibold text-white">
+                120+
+              </p>
+              <p className="text-sm text-gray-300">{t('home.hero.stat3')}</p>
             </div>
           </div>
         </div>
 
         {/* RIGHT IMAGE SECTION */}
-        <div className="relative">
+        {/* <div className="relative">
           <div className="relative overflow-hidden rounded-3xl shadow-xl">
             <img
               src="/assets/herobg.webp"
@@ -68,13 +89,12 @@ function Hero() {
               className="h-125 w-full object-cover"
             />
 
-            {/* Top badge */}
             <div className="absolute left-2 top-1 rounded-full bg-secondary px-3 py-1 text-sm  text-black shadow flex gap-2">
               <span className="material-symbols-outlined">psychiatry</span>
               {t('home.hero.rightBadge')}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
