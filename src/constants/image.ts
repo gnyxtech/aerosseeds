@@ -3,6 +3,7 @@ export const APP_IMAGE = {
   farm: '/assets/images/farms-crops.webp',
   factory: '/assets/images/factory.webp',
   logo: '/assets/images/logo.webp',
+  whatsappSVG: '/whatsapp.svg',
   products: {
     chia: '/assets/products/chiaseeds.webp',
     maize771: '/assets/products/hybridmaize-771.webp',

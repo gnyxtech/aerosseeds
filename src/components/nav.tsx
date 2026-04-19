@@ -3,6 +3,7 @@ import { useI18n } from '../i18n/provider';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { PATH_DASHBOARD } from '../routes/paths';
 import { APP_IMAGE } from './../constants/image';
+import { sendWhatsAppMessage } from '../utils/whatsapp';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -22,6 +23,12 @@ const Navbar = () => {
     setLang(lang === 'en' ? 'hi' : 'en');
   };
 
+  const handleWhatsapp = () => {
+    const message = t('whatsapp.navbar');
+
+    sendWhatsAppMessage({ message });
+  };
+
   return (
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b border-gray-200 h-16">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
@@ -30,7 +37,7 @@ const Navbar = () => {
           onClick={() => navigate(PATH_DASHBOARD.home)}
           className="flex items-center cursor-pointer"
         >
-          <img src={APP_IMAGE.logo} className='h-6' alt="" />
+          <img src={APP_IMAGE.logo} className="h-6" alt="" />
         </div>
 
         {/* DESKTOP MENU */}
@@ -73,7 +80,10 @@ const Navbar = () => {
           </button>
 
           {/* WhatsApp */}
-          <button className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition shadow-sm hover:shadow-md">
+          <button
+            className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition shadow-sm hover:shadow-md cursor-pointer"
+            onClick={handleWhatsapp}
+          >
             <span className="material-symbols-outlined">chat</span>
             {t('common.button.chatOnWhatsapp')}
           </button>
@@ -123,7 +133,10 @@ const Navbar = () => {
             })}
           </ul>
 
-          <button className="w-full flex justify-center items-center gap-2 bg-green-600 text-white py-2 rounded-lg">
+          <button
+            className="w-full flex justify-center items-center gap-2 bg-green-600 text-white py-2 rounded-lg cursor-pointer"
+            onClick={handleWhatsapp}
+          >
             <span className="material-symbols-outlined">chat</span>
             {t('common.button.chatOnWhatsapp')}
           </button>

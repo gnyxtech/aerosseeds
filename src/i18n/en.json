@@ -358,5 +358,19 @@
         "image": "/assets/products/mustardseeds3536.webp"
       }
     ]
+  },
+  "whatsapp": {
+    "navbar": "Hello, I recently visited your website and would like to know more about your agricultural products, services, and how you can help me. Please share complete details.",
+    "hero": "Hello, I am interested in your agricultural products and would like guidance on the best options for the current season. Please help me with suitable recommendations and details.",
+    "season": "Hello, I am planning to start this farming season and want to choose the right seeds and products. Please suggest the best options along with complete details and pricing.",
+    "footer": "Hello, I came across your website and would like to know more about your products and services. Kindly share more information and details.",
+    "about": "Hello, I read about your company and I am interested in learning more about your agricultural products, quality, and services. Please provide more details.",
+    "contactDirect": "Hello, I am reaching out to you directly through your website and would like to inquire about your products and services. Please share the necessary details.",
+    "floating": "Hello, I want to inquire about your agricultural products. Please provide more information.",
+    "contactForm": "Hello,\n\nMy name is {{name}}.\nMy phone number is {{phone}}.\n\n{{message}}"
+  },
+  "error": {
+    "nameRequired": "Name is required",
+    "phoneRequired": "Phone number is required"
   }
 }

@@ -1,5 +1,6 @@
 import { APP_IMAGE } from '../../constants/image';
 import { useI18n } from '../../i18n/provider';
+import { sendWhatsAppMessage } from '../../utils/whatsapp';
 
 const About = () => {
   const { t } = useI18n();
@@ -7,6 +8,12 @@ const About = () => {
   const whatWeStandFor = t('about.whatWeStandFor', {
     returnObjects: true,
   });
+
+  const handleWhatsapp = () => {
+    const message = t('whatsapp.about');
+
+    sendWhatsAppMessage({ message });
+  };
 
   return (
     <div>
@@ -160,14 +167,12 @@ const About = () => {
           </p>
 
           {/* CTA Button */}
-          <a
-            href="https://wa.me/919329202018"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-md hover:bg-green-700 hover:shadow-lg transition-all duration-300 hover:scale-105"
+          <button
+            className="inline-block bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-md hover:bg-green-700 hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer"
+            onClick={handleWhatsapp}
           >
             {t('common.button.chatOnWhatsapp')}
-          </a>
+          </button>
         </div>
       </section>
     </div>

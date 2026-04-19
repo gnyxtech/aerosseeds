@@ -1,8 +1,17 @@
 import { useI18n } from '../../../i18n/provider';
+import { sendWhatsAppMessage } from '../../../utils/whatsapp';
 
 function Contact() {
   const { t } = useI18n();
-  const benefits = t('home.contact.benefits', { returnObjects: true }) as string[];
+  const benefits = t('home.contact.benefits', {
+    returnObjects: true,
+  }) as string[];
+
+  const handleWhatsapp = () => {
+    const message = t('whatsapp.season');
+
+    sendWhatsAppMessage({ message });
+  };
   return (
     <section className="px-6 py-12 md:px-12">
       <div className="max-w-7xl mx-auto">
@@ -18,7 +27,7 @@ function Contact() {
 
             <ul className="space-y-4">
               {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-center gap-3 text-white">
+                <li key={index} className="flex items-center gap-3 text-white">
                   <span className="material-symbols-outlined text-[#2BB673] text-[22px]">
                     check_circle
                   </span>
@@ -30,13 +39,13 @@ function Contact() {
 
           {/* Actions Right */}
           <div className="flex flex-col items-center md:items-end w-full md:w-auto z-10">
-            <a
-              href="#"
-              className="bg-[#2BB673]  transition-all transform hover:-translate-y-1 text-white px-4 py-2 md:px-10 md:py-5 rounded-full flex items-center gap-3 text-sm md:text-xl font-semibold shadow-xl"
-              >
-              <span className="material-symbols-outlined" >chat_bubble</span>
-                {t('home.contact.rightButton')}
-            </a>
+            <button
+              className="bg-[#2BB673]  transition-all transform hover:-translate-y-1 text-white px-4 py-2 md:px-10 md:py-5 rounded-full flex items-center gap-3 text-sm md:text-xl font-semibold shadow-xl cursor-pointer"
+              onClick={handleWhatsapp}
+            >
+              <span className="material-symbols-outlined">chat_bubble</span>
+              {t('home.contact.rightButton')}
+            </button>
 
             <div className="mt-8 text-center md:text-right">
               <p className="text-white/70 text-base flex items-center justify-center md:justify-end gap-2">
