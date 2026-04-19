@@ -60,7 +60,7 @@ export default function FeaturedProducts() {
                 <h3 className="mt-1 text-lg font-semibold">{item.title}</h3>
 
                 <div className="mt-3 flex items-center gap-3">
-                  <button className="rounded-full bg-primary px-4 py-1 text-xs font-medium text-white hover:opacity-90 transition flex items-center gap-2">
+                  <button className="rounded-full bg-primary px-3 py-2 text-xs font-medium text-white hover:opacity-90 transition flex items-center gap-2">
                     <span>{t('common.button.enquireNow')}</span>{' '}
                     <span
                       className="material-symbols-outlined"

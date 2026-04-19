@@ -9,10 +9,10 @@ function Contact() {
         <div className="bg-primary rounded-[40px] md:rounded-[56px] p-10 md:p-20 flex flex-col md:flex-row justify-between items-start md:items-center gap-12 relative overflow-hidden">
           {/* Content Left */}
           <div className="max-w-xl z-10">
-            <h2 className="text-white text-4xl md:text-6xl  font-medium leading-[1.1] mb-6">
+            <h2 className="text-white text-2xl sm:text-4xl  leading-[1.1] mb-6">
               {t('home.contact.heading')}
             </h2>
-            <p className="text-white/80 text-lg md:text-xl mb-10 leading-relaxed">
+            <p className="text-white/80 sm:text-lg mb-10 leading-relaxed">
               {t('home.contact.subHeading')}
             </p>
 
@@ -22,7 +22,7 @@ function Contact() {
                   <span className="material-symbols-outlined text-[#2BB673] text-[22px]">
                     check_circle
                   </span>
-                  <span className="text-lg">{benefit}</span>
+                  <span className="sm:text-lg">{benefit}</span>
                 </li>
               ))}
             </ul>
@@ -32,9 +32,9 @@ function Contact() {
           <div className="flex flex-col items-center md:items-end w-full md:w-auto z-10">
             <a
               href="#"
-              className="bg-[#2BB673]  transition-all transform hover:-translate-y-1 text-white px-10 py-5 rounded-full flex items-center gap-3 text-xl md:text-2xl font-semibold shadow-xl"
+              className="bg-[#2BB673]  transition-all transform hover:-translate-y-1 text-white px-4 py-2 md:px-10 md:py-5 rounded-full flex items-center gap-3 text-sm md:text-xl font-semibold shadow-xl"
               >
-              <span className="material-symbols-outlined">chat_bubble</span>
+              <span className="material-symbols-outlined" >chat_bubble</span>
                 {t('home.contact.rightButton')}
             </a>
 
