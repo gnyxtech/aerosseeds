@@ -34,12 +34,23 @@ const Footer = () => {
               {t('footer.description')}
             </p>
 
-            <button
+            {/* <button
               className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-medium transition cursor-pointer"
               onClick={handleWhatsapp}
             >
               {t('common.button.chatOnWhatsapp')}
-            </button>
+            </button> */}
+            <div className="flex items-center gap-4 mb-6 text-primary">
+              <a href="https://www.instagram.com/aeros_seeds" target="_blank">
+                {' '}
+                <img
+                  src="/assets/svgs/instagram.svg"
+                  className="w-6 text-primary"
+                  alt=""
+                />
+              </a>
+              {/* <a href="https://www.instagram.com/aeros_seeds" target='_blank'> <img src="/assets/svgs/facebook.svg" className='w-6 text-primary' alt="" /></a> */}
+            </div>
           </div>
 
           {/* CENTER */}

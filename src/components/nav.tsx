@@ -57,7 +57,7 @@ const Navbar = () => {
 
                 {/* Apple underline */}
                 <span
-                  className={`absolute left-0 -bottom-1 h-[2px] bg-green-600 transition-all duration-300
+                  className={`absolute left-0 -bottom-1 h-0.5 bg-green-600 transition-all duration-300
                     ${isActive ? 'w-full' : 'w-0 hover:w-full'}
                   `}
                 ></span>
@@ -73,9 +73,17 @@ const Navbar = () => {
             onClick={toggleLang}
             className="flex items-center gap-1 px-3 py-1 border rounded-full hover:bg-gray-100 transition"
           >
-            <span className="material-symbols-outlined">language</span>
+            {/* <span className="material-symbols-outlined">language</span> */}
+            <img
+              src={
+                lang === 'en' ? '/assets/svgs/uk.svg' : '/assets/svgs/india.svg'
+              }
+              alt={lang === 'en' ? 'English' : 'Hindi'}
+              className="h-5 w-5"
+            />
+
             <span className="text-sm font-medium">
-              {lang === 'en' ? 'EN' : 'हिं'}
+              {lang === 'en' ? 'English' : 'हिंदी'}
             </span>
           </button>
 
@@ -95,9 +103,17 @@ const Navbar = () => {
             onClick={toggleLang}
             className="flex items-center gap-1 px-3 py-1 border rounded-full hover:bg-gray-100 transition"
           >
-            <span className="material-symbols-outlined">language</span>
+            {/* <span className="material-symbols-outlined">language</span> */}
+            <img
+              src={
+                lang === 'en' ? '/assets/svgs/uk.svg' : '/assets/svgs/india.svg'
+              }
+              alt={lang === 'en' ? 'English' : 'Hindi'}
+              className="h-5 w-5"
+            />
+
             <span className="text-sm font-medium">
-              {lang === 'en' ? 'EN' : 'हिं'}
+              {lang === 'en' ? 'English' : 'हिंदी'}
             </span>
           </button>
 
