@@ -138,7 +138,7 @@ const Products = () => {
             </div>
           ))
         ) : (
-          <p className="text-gray-500 col-span-full text-center">
+          <p className="text-gray-500 col-span-full text-center"> 
             No products found
           </p>
         )}
