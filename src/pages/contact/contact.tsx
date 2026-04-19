@@ -92,7 +92,7 @@ function contact() {
                 <span className="material-symbols-outlined text-[#E9B949]">mail</span>
                 <div>
                   <p className="text-[11px] font-bold tracking-widest text-white/50 uppercase">{t('contact.contactDetails.details.email.heading')}</p>
-                  <p className="text-lg font-medium">{t('contact.contactDetails.details.phone.value')}</p>
+                  <p className="text-lg font-medium">{t('contact.contactDetails.details.email.value')}</p>
                 </div>
               </div>
 
@@ -127,7 +127,7 @@ function contact() {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="grayscale-[20%] contrast-[1.1]"
+            className="grayscale-20 contrast-[1.1]"
           ></iframe>
         </div>
       </div>
