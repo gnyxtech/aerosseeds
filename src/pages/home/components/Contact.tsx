@@ -40,7 +40,7 @@ function Contact() {
           {/* Actions Right */}
           <div className="flex flex-col items-center md:items-end w-full md:w-auto z-10">
             <button
-              className="bg-[#2BB673]  transition-all transform hover:-translate-y-1 text-white px-4 py-2 md:px-10 md:py-5 rounded-full flex items-center gap-3 text-sm md:text-xl font-semibold shadow-xl cursor-pointer"
+              className="bg-[#2BB673]  transition-all transform hover:-translate-y-1 text-white px-4 py-2 px-10 py-5 rounded-full flex items-center gap-3 text-sm md:text-xl font-semibold shadow-xl cursor-pointer"
               onClick={handleWhatsapp}
             >
               <span className="material-symbols-outlined">chat_bubble</span>

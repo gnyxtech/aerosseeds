@@ -18,7 +18,7 @@ const About = () => {
   return (
     <div>
       {/* hero */}
-      <section className="bg-[#f5f3ef] py-16 px-6">
+      <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           {/* text */}
           <div>
@@ -42,7 +42,7 @@ const About = () => {
           {/* image */}
           <div className="w-full">
             <img
-              src={APP_IMAGE.owner}
+              src={APP_IMAGE.factory_new}
               alt="Farmer"
               className="w-full h-[500px] object-cover rounded-3xl shadow-lg"
             />
@@ -51,7 +51,7 @@ const About = () => {
       </section>
 
       {/* what we stand for*/}
-      <section className="bg-[#e9dfcf] py-20 px-6">
+      <section className="bg-secondary/25 py-20 px-6">
         <div className="max-w-7xl mx-auto">
           {/* Heading */}
           <h2 className="text-3xl md:text-5xl font-bold text-[#1f2d1f] mb-12">
@@ -79,7 +79,7 @@ const About = () => {
 
       {/* image section */}
 
-      <section className="bg-[#f5f3ef] py-12 md:py-16 px-4 md:px-6">
+      <section className="py-12 md:py-16 px-4 md:px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 items-center">
           {/* LEFT BIG IMAGE */}
           <div className="md:col-span-2 overflow-hidden rounded-3xl">
@@ -103,7 +103,7 @@ const About = () => {
 
       {/* our vision */}
 
-      <section className="bg-[#e9dfcf] py-20 px-4 md:px-6">
+      <section className="bg-secondary/25 py-20 px-4 md:px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
           {/* VISION */}
           <div className="relative bg-white rounded-3xl p-8 md:p-10 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
@@ -159,7 +159,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="bg-secondary/10 py-16 px-4 md:px-6 text-center">
+      <section className="py-16 px-4 md:px-6 text-center">
         <div className="max-w-3xl mx-auto">
           {/* Leadership Line */}
           <p className="text-[#1f2d1f] text-lg md:text-xl mb-8 font-medium">

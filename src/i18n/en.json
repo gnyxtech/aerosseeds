@@ -223,7 +223,7 @@
           "id": "03",
           "title": "Packed",
           "description": "Sealed in moisture-proof packs with full traceability.",
-          "image": "/assets/images/owner.webp"
+          "image": "/assets/images/factory_new.webp"
         }
       ]
     },
@@ -233,24 +233,31 @@
       "testimonials": [
         {
           "id": 1,
-          "quote": "Aeros maize gave me 60 quintals per acre last season. The germination is the best I've seen in 20 years.",
-          "name": "Ramesh Patil",
-          "location": "Nashik, Maharashtra",
-          "image": "https://images.unsplash.com/photo-1542385151-efd9000785a0?w=100&h=100&fit=crop"
+          "quote": "The seed quality was really good. Germination started within 4-5 days and the plants are growing healthy. Totally worth it!",
+          "name": "Amit Sharma",
+          "location": "Jaipur, Rajasthan",
+          "image": "/assets/testimonials/person_one.webp"
         },
         {
           "id": 2,
-          "quote": "Tomato variety stays firm for days after harvest. Mandi traders pay ₹3–4 more per kg for Aeros tomatoes.",
-          "name": "Suresh Reddy",
-          "location": "Kurnool, Andhra Pradesh",
-          "image": "https://images.unsplash.com/photo-1542385151-efd9000785a0?w=100&h=100&fit=crop"
+          "quote": "Tried it for the first time and had some doubts, but the results were impressive. Pest resistance was decent and maintenance was easy.",
+          "name": "Ravi Verma",
+          "location": "Indore, Madhya Pradesh",
+          "image": "/assets/testimonials/person_second.webp"
         },
         {
           "id": 3,
-          "quote": "Their team came to my field, explained everything in Hindi. Now my whole village uses Aeros seeds.",
-          "name": "Priya Chaudhary",
-          "location": "Sonipat, Haryana",
-          "image": "https://images.unsplash.com/photo-1542385151-efd9000785a0?w=100&h=100&fit=crop"
+          "quote": "All packets had clear labeling with crop details and sowing instructions. Very helpful for farmers.",
+          "name": "Mahesh Yadav",
+          "location": "Kota, Rajasthan",
+          "image": "/assets/testimonials/person_third.webp"
+        },
+        {
+          "id": 4,
+          "quote": "Ordered in bulk and the packaging was neat and well-organized. Easy to handle and store.",
+          "name": "Sunil Patel",
+          "location": "Surat, Gujarat",
+          "image": "/assets/testimonials/person_fourth.webp"
         }
       ]
     },
@@ -431,7 +438,6 @@
           "Fetches higher market price"
         ]
       },
-
       {
         "title": "Soyabean Jwala-07",
         "category": "Soyabean",

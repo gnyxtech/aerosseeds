@@ -28,8 +28,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10">
           {/* LEFT */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <img src={APP_IMAGE.logo} className="h-6" alt="" />
+            <div className="flex items-center gap-3 mb-1">
+              <img src={APP_IMAGE.logo} className="h-6" alt="aeros seeds" />
+              <img
+                src={APP_IMAGE.sanskriti_logo}
+                className="h-20"
+                alt="sanskriti"
+              />
             </div>
 
             <p className="text-sm leading-6 mb-6 max-w-md">

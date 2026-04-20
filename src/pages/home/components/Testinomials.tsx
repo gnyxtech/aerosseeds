@@ -24,21 +24,21 @@ export default function Testimonials() {
               {t('home.testimonials.subHeading')}
             </h2>
           </div>
-          </div>
+        </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
           {testimonials.map((item) => (
             <div
               key={item.id}
-              className="bg-white p-10 rounded-4xl border border-secondary/50 shadow-xl flex flex-col justify-between transition-hover duration-300 hover:shadow-md"
+              className="bg-white p-6 rounded-4xl h-full border border-secondary/50 shadow-xl flex flex-col justify-between transition-hover duration-300 hover:shadow-md"
             >
               <div>
                 {/* Quote Icon */}
-                <div className="text-[#E9B949] text-7xl font-serif leading-none">
+                <div className="text-[#E9B949] text-5xl font-serif leading-none">
                   “
                 </div>
-                <p className="text-[#4A4A4A] text-lg leading-relaxed mb-2">
+                <p className="text-[#4A4A4A] text-lg leading-relaxed mb-1">
                   "{item.quote}"
                 </p>
               </div>
