@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../../i18n/provider';
+import { APP_IMAGE } from '../../constants/image';
 
 const NotFound = () => {
   const navigate = useNavigate();
@@ -39,7 +40,7 @@ const NotFound = () => {
       </div>
 
       {/* Optional Illustration */}
-      <div className="mt-10 text-6xl">🌱</div>
+      <img src={APP_IMAGE.logo} alt="Aeros Seeds" className="w-35 mt-10" />
 
       {/* Bottom Text */}
       <p className="text-xs text-gray-500 mt-6">{t('page404.logoTagline')}</p>

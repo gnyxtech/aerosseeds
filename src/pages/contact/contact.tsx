@@ -203,7 +203,7 @@ function contact() {
         <div className="w-full h-112.5 rounded-4xl overflow-hidden border border-gray-300 shadow-sm mt-24">
           <iframe
             title="Aeros Seeds Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.7577312327435!2d78.37517!3d17.43575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI2JzA4LjciTiA3OMKwMjInMzAuNiJF!5e0!3m2!1sen!2sin!4v1715600000000!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1025.8044891030688!2d77.0209110109835!3d22.3016755697533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397d7154feb1d3e5%3A0x8ffb3d889090aff6!2sFCP%20Sanskriti%20Warehouse%2C%20Harda!5e1!3m2!1sen!2sin!4v1776708721450!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}

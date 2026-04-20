@@ -35,7 +35,7 @@ const Products = () => {
   });
 
   return (
-    <section className="bg-[#e8dfcf] px-6 md:px-16 py-16">
+    <section className="bg-secondary/10 px-6 md:px-16 py-16">
       {/* Heading */}
       <p className="text-primary/90 tracking-[4px] text-sm font-medium mb-3">
         {t('products.catalogue')}
@@ -139,7 +139,7 @@ const Products = () => {
             </div>
           ))
         ) : (
-          <p className="text-gray-500 col-span-full text-center"> 
+          <p className="text-gray-500 col-span-full text-center">
             No products found
           </p>
         )}
