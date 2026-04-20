@@ -1,4 +1,6 @@
 import { useI18n } from '../../../i18n/provider';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../../utils/animation';
 
 export default function Testimonials() {
   const { t } = useI18n();
@@ -15,7 +17,10 @@ export default function Testimonials() {
     <section className=" w-full  py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
+        <motion.div
+          {...fadeIn({ direction: 'left', delay: 0.2 })}
+          className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12"
+        >
           <div>
             <p className="text-xs tracking-[0.3em] text-primary uppercase">
               {t('home.testimonials.heading')}
@@ -24,13 +29,14 @@ export default function Testimonials() {
               {t('home.testimonials.subHeading')}
             </h2>
           </div>
-        </div>
+        </motion.div>
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
           {testimonials.map((item) => (
-            <div
+            <motion.div
               key={item.id}
+              {...fadeIn({ direction: 'up', delay: 0.2 })}
               className="bg-white p-6 rounded-4xl h-full border border-secondary/50 shadow-xl flex flex-col justify-between transition-hover duration-300 hover:shadow-md"
             >
               <div>
@@ -57,7 +63,7 @@ export default function Testimonials() {
                   <p className="text-gray-500 text-sm">{item.location}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
