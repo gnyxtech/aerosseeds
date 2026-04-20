@@ -12,7 +12,11 @@
       "goHome": "Go Home",
       "goBack": "Go Back"
     },
-    "enquireMessage": "Hello, I recently visited your website and would like to know more about your {{title}} ({{category}}). Please share complete details."
+    "enquireMessage": "Hello, I recently visited your website and would like to know more about your {{title}} ({{category}}). Please share complete details.",
+    "products": {
+      "viewMore": "View more",
+      "viewLess": "View less"
+    }
   },
   "home": {
     "hero": {
