@@ -1,16 +1,22 @@
 import { useI18n } from '../../../i18n/provider';
 import { PATH_DASHBOARD } from '../../../routes/paths';
 import { useNavigate } from 'react-router-dom';
+import { handleEnquire } from '../../../utils/whatsapp';
+import { useState } from 'react';
 
 export default function FeaturedProducts() {
   const { t } = useI18n();
   const navigate = useNavigate();
+   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
-  const products = t('home.featuredProducts.products', { returnObjects: true }) as Array<{
-  title: string;
-  subtitle: string;
-  image: string;
-}>;
+  const products = t('home.featuredProducts.products', {
+    returnObjects: true,
+  }) as Array<{
+    title: string;
+    category: string;
+    image: string;
+    benefits: string[];
+  }>;
   return (
     <section className="w-full px-6 py-16 md:py-24">
       <div className="mx-auto max-w-7xl">
@@ -25,8 +31,14 @@ export default function FeaturedProducts() {
             </h2>
           </div>
 
-          <button className="flex items-center gap-2 text-sm font-medium text-primary cursor-pointer" onClick={() => navigate(PATH_DASHBOARD.products)}>
-            <span className="hover:underline">  {t('home.featuredProducts.allProducts')}</span>
+          <button
+            className="flex items-center gap-2 text-sm font-medium text-primary cursor-pointer"
+            onClick={() => navigate(PATH_DASHBOARD.products)}
+          >
+            <span className="hover:underline">
+              {' '}
+              {t('home.featuredProducts.allProducts')}
+            </span>
             <span
               className="material-symbols-outlined"
               style={{ fontSize: '14px' }}
@@ -43,26 +55,48 @@ export default function FeaturedProducts() {
               key={idx}
               className="group relative h-90 overflow-hidden rounded-3xl shadow-md"
             >
-              {/* Image */}
               <img
                 src={item.image}
                 alt={item.title}
                 className="h-full w-full object-contain bg-black/10 transition-transform duration-500 group-hover:scale-105"
               />
 
-              {/* Dark overlay */}
               <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent" />
 
-              {/* Content */}
               <div className="absolute bottom-0 p-5 text-white">
                 <p className="text-[10px] tracking-widest text-white/70 uppercase">
-                  {item.subtitle}
+                  {item.category}
                 </p>
 
                 <h3 className="mt-1 text-lg font-semibold">{item.title}</h3>
 
-                <div className="mt-3 flex items-center gap-3">
-                  <button className="rounded-full bg-primary px-3 py-2 text-xs font-medium text-white hover:opacity-90 transition flex items-center gap-2">
+                
+
+                {expandedIndex === idx ? (
+                  <ul className="mt-2 text-[10px] text-white/70 space-y-1">
+                    {item.benefits.map((b, i) => (
+                      <li key={i}>• {b}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <ul className="mt-2 text-[10px] text-white/70 space-y-1">
+                    {item.benefits?.slice(0, 2).map((b, i) => (
+                      <li key={i}>• {b}</li>
+                    ))}
+                  </ul>
+                )}
+                {item.benefits?.length > 2 && (
+                  <button
+                    onClick={() =>
+                      setExpandedIndex(expandedIndex === idx ? null : idx)
+                    }
+                    className="text-[10px] text-white mt-1 mr-4 underline"
+                  >
+                    {expandedIndex === idx ? 'View less' : 'View more'}
+                  </button>
+                )}
+
+                <button className="rounded-full bg-primary px-3 py-2 text-xs font-medium text-white hover:scale-110 transition flex items-center gap-2 cursor-pointer" onClick={() => handleEnquire(item,t)}>
                     <span>{t('common.button.enquireNow')}</span>{' '}
                     <span
                       className="material-symbols-outlined"
@@ -71,7 +105,6 @@ export default function FeaturedProducts() {
                       line_end_arrow_notch
                     </span>
                   </button>
-                </div>
               </div>
             </div>
           ))}

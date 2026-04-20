@@ -11,7 +11,8 @@
       "enquireNow": "Enquire Now",
       "goHome": "Go Home",
       "goBack": "Go Back"
-    }
+    },
+    "enquireMessage": "Hello, I recently visited your website and would like to know more about your {{title}} ({{category}}). Please share complete details."
   },
   "home": {
     "hero": {
@@ -30,34 +31,147 @@
       "allProducts": "All Products",
       "products": [
         {
-          "title": "PDM-139",
-          "subtitle": "MOONG SEEDS",
-          "image": "/assets/products/moongseeds-pdm139.webp"
-        },
-        {
-          "title": "S-444",
-          "subtitle": "MOONG SEEDS",
-          "image": "/assets/products/moongseeds-s444.webp"
+          "title": "Hybrid Maize 771",
+          "category": "Maize",
+          "image": "/assets/products/hybridmaize-771.webp",
+          "benefits": [
+            "Highly suitable for sowing with a seed drill",
+            "First choice of farmers",
+            "Higher yield and better market price",
+            "Cobs do not open even after maturity",
+            "Strong stem and root system, so the crop does not lodge in wind",
+            "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+            "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+          ]
         },
         {
           "title": "Hybrid Maize 775",
-          "subtitle": "Maize",
-          "image": "/assets/products/hybridmaize-775.webp"
+          "category": "Maize",
+          "image": "/assets/products/hybridmaize-775.webp",
+          "benefits": [
+            "Highly suitable for sowing with a seed drill",
+            "Maximum yield",
+            "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+            "Grain quality: kernels are bold, heavy, and yellow-orange in color, fetching good market prices",
+            "High shelling: 86–87% shelling percentage, meaning a high grain-to-cob ratio",
+            "Suitable for Central India, Bihar, Rajasthan, Gujarat, and Chhattisgarh",
+            "Fetches higher market price",
+            "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+          ]
         },
         {
-          "title": "Hybrid Maize 771",
-          "subtitle": "Maize",
-          "image": "/assets/products/hybridmaize-771.webp"
+          "title": "Hybrid Maize 772",
+          "category": "Maize",
+          "image": "/assets/products/hybridmaize-772.webp",
+          "benefits": [
+            "Highly suitable for sowing with a seed drill",
+            "Excellent germination capacity",
+            "Known for high yield per acre",
+            "High starch content, making it ideal for ethanol production",
+            "Strong disease resistance",
+            "Strong stem provides resistance against lodging",
+            "Uniform cobs filled up to the tip",
+            "Fetches higher market price"
+          ]
+        },
+        {
+          "title": "Soyabean Jwala-07",
+          "category": "Soyabean",
+          "image": "/assets/products/jwala07.webp",
+          "benefits": [
+            "Maturity duration: 85 to 95 days",
+            "Seed rate: 40–45 kg per acre",
+            "Grain color: bright yellow",
+            "Average yield: 24 to 27 quintals per hectare",
+            "Special feature: resistant to diseases like yellow mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+            "Excellent germination capacity",
+            "Suitable for timely sowing and adaptable to both high and low rainfall conditions"
+          ]
         },
         {
           "title": "Soyabean Jwala-13",
-          "subtitle": "Soyabean",
-          "image": "/assets/products/jwala13.webp"
+          "category": "Soyabean",
+          "image": "/assets/products/jwala13.webp",
+          "benefits": [
+            "Maturity duration of only 85 to 92 days",
+            "Seed rate of just 35 to 40 kg per acre",
+            "Crop has a bright, shiny yellow color",
+            "Average yield of 25 to 28 quintals per hectare",
+            "Excellent disease resistance including mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+            "Excellent germination capacity",
+            "Performs well even in heavy rainfall and dense soil conditions"
+          ]
+        },
+
+        {
+          "title": "Mustard",
+          "category": "Mustard Seeds",
+          "image": "/assets/products/mustardseeds.webp",
+          "benefits": [
+            "This hybrid variety has the potential to yield 12-14 quintals per acre.",
+            "This variety matures and is ready for harvest in approximately 120-130 days.",
+            "1 kg of seed is sufficient for sowing 1 acre of this variety.",
+            "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
+            "Frost resistant"
+          ]
         },
         {
           "title": "Chia Seeds",
-          "subtitle": "Chia Seeds",
-          "image": "/assets/products/chiaseeds.webp"
+          "category": "Chia Seeds",
+          "image": "/assets/products/chiaseeds.webp",
+          "benefits": [
+            "This variety gives a higher yield compared to normal Chia.",
+            "Maturity Period: It matures and becomes ready for harvest in approximately 110 to 120 days.",
+            "Sowing: 1 kg of seeds is sufficient for sowing in 1 acre.",
+            "Irrigation: It requires 4-5 light irrigations.",
+            "Yield: A production of approximately 6 quintals per acre can be obtained.",
+            "Frost Resistant: This variety is tolerant to frost conditions.",
+            "Disease Resistance: It is less susceptible to diseases."
+          ]
+        },
+        {
+          "title": "Wheat Seeds AW21",
+          "category": "Wheat Seeds",
+          "image": "/assets/products/wheatseeds-aw21.webp",
+          "benefits": [
+            "High Yield: This variety is high-yielding, especially in Madhya Pradesh.",
+            "Better Grain Quality: It has superior grain quality, making it suitable for making rotis and other uses.",
+            "Disease Resistant: This variety is resistant to some common wheat diseases, helping farmers use fewer pesticides.",
+            "Enhanced Nutritional Value: This variety has better nutrition levels, making it more nutritious for human consumption.",
+            "Crop Duration: This variety matures in 115 to 120 days, making it an attractive option for farmers.",
+            "Lodging Resistance: The plant height is 90-95 cm, which prevents it from falling even in strong winds, keeping the yield safe.",
+            "Irrigation Requirement: This variety typically requires 3-4 irrigations.",
+            "Suitability: This variety is suitable for cultivation in states like Madhya Pradesh, Chhattisgarh, Rajasthan, and Gujarat.",
+            "Seed Rate: A seed rate of 40-45 kg per acre is recommended."
+          ]
+        },
+
+        {
+          "title": "Shiva",
+          "category": "Gram Seeds",
+          "image": "/assets/products/shivagramseeds.webp",
+          "benefits": [
+            "High Yield Potential: Shiva Chana can provide a yield of up to 39 quintals per hectare, which is equivalent to 15.5 quintals per acre.",
+            "Disease Resistance: This gram variety is resistant to diseases like Fusarium wilt.",
+            "Drought Tolerance: This variety can provide a good yield even in low water conditions.",
+            "Crop Duration: Ganpati 101 gram matures and is ready in 105-110 days.",
+            "Suitability: This variety is recommended for sowing in the Rabi season and under irrigated conditions.",
+            "Seed Rate: A seed rate of 30-35 kg per acre is recommended."
+          ]
+        },
+
+        {
+          "title": "Megha",
+          "category": "Moong Seeds",
+          "image": "/assets/products/moongseedsmegha.webp",
+          "benefits": [
+            "Disease Resistance: This variety is resistant to diseases like Yellow Mosaic Virus and Leaf Curl.",
+            "Production: Its yield potential is 12 to 20 quintals per hectare, which is higher compared to other varieties.",
+            "Crop Duration: This variety matures and is ready for harvest in 50 to 65 days.",
+            "Suitable Timing: It can be sown in Kharif, Summer, and Spring seasons.",
+            "Irrigation: Perform the first irrigation approximately 22 days after sowing, followed by two more irrigations at 15-day intervals.",
+            "Fertilizer: Use Urea, Single Super Phosphate (SSP), and Potash; apply fertilizers only after getting a soil test done."
+          ]
         }
       ]
     },
@@ -269,205 +383,306 @@
       "Maize",
       "Chia Seeds",
       "Mustard Seeds",
-      "Wheat Seeds"
+      "Wheat Seeds",
+      "Gram Seeds"
     ],
-    "products" : [
-    {
+    "products": [
+      {
         "title": "Hybrid Maize 771",
         "category": "Maize",
         "image": "/assets/products/hybridmaize-771.webp",
         "benefits": [
-            "Highly suitable for sowing with a seed drill",
-            "First choice of farmers",
-            "Higher yield and better market price",
-            "Cobs do not open even after maturity",
-            "Strong stem and root system, so the crop does not lodge in wind",
-            "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
-            "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+          "Highly suitable for sowing with a seed drill",
+          "First choice of farmers",
+          "Higher yield and better market price",
+          "Cobs do not open even after maturity",
+          "Strong stem and root system, so the crop does not lodge in wind",
+          "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+          "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
         ]
-    },
-    {
+      },
+      {
         "title": "Hybrid Maize 775",
         "category": "Maize",
         "image": "/assets/products/hybridmaize-775.webp",
         "benefits": [
-            "Highly suitable for sowing with a seed drill",
-            "Maximum yield",
-            "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
-            "Grain quality: kernels are bold, heavy, and yellow-orange in color, fetching good market prices",
-            "High shelling: 86–87% shelling percentage, meaning a high grain-to-cob ratio",
-            "Suitable for Central India, Bihar, Rajasthan, Gujarat, and Chhattisgarh",
-            "Fetches higher market price",
-            "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+          "Highly suitable for sowing with a seed drill",
+          "Maximum yield",
+          "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+          "Grain quality: kernels are bold, heavy, and yellow-orange in color, fetching good market prices",
+          "High shelling: 86–87% shelling percentage, meaning a high grain-to-cob ratio",
+          "Suitable for Central India, Bihar, Rajasthan, Gujarat, and Chhattisgarh",
+          "Fetches higher market price",
+          "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
         ]
-    },
-    {
+      },
+      {
         "title": "Hybrid Maize 772",
         "category": "Maize",
         "image": "/assets/products/hybridmaize-772.webp",
         "benefits": [
-            "Highly suitable for sowing with a seed drill",
-            "Excellent germination capacity",
-            "Known for high yield per acre",
-            "High starch content, making it ideal for ethanol production",
-            "Strong disease resistance",
-            "Strong stem provides resistance against lodging",
-            "Uniform cobs filled up to the tip",
-            "Fetches higher market price"
+          "Highly suitable for sowing with a seed drill",
+          "Excellent germination capacity",
+          "Known for high yield per acre",
+          "High starch content, making it ideal for ethanol production",
+          "Strong disease resistance",
+          "Strong stem provides resistance against lodging",
+          "Uniform cobs filled up to the tip",
+          "Fetches higher market price"
         ]
-    },
-    {
-        "title": "Soyabean Jwala-13",
-        "category": "Soyabean",
-        "image": "/assets/products/jwala13.webp",
-        "benefits": [
-            "Maturity duration of only 85 to 92 days",
-            "Seed rate of just 35 to 40 kg per acre",
-            "Crop has a bright, shiny yellow color",
-            "Average yield of 25 to 28 quintals per hectare",
-            "Excellent disease resistance including mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
-            "Excellent germination capacity",
-            "Performs well even in heavy rainfall and dense soil conditions"
-        ]
-    },
-    {
+      },
+
+      {
         "title": "Soyabean Jwala-07",
         "category": "Soyabean",
         "image": "/assets/products/jwala07.webp",
         "benefits": [
-            "Maturity duration: 85 to 95 days",
-            "Seed rate: 40–45 kg per acre",
-            "Grain color: bright yellow",
-            "Average yield: 24 to 27 quintals per hectare",
-            "Special feature: resistant to diseases like yellow mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
-            "Excellent germination capacity",
-            "Suitable for timely sowing and adaptable to both high and low rainfall conditions"
+          "Maturity duration: 85 to 95 days",
+          "Seed rate: 40–45 kg per acre",
+          "Grain color: bright yellow",
+          "Average yield: 24 to 27 quintals per hectare",
+          "Special feature: resistant to diseases like yellow mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+          "Excellent germination capacity",
+          "Suitable for timely sowing and adaptable to both high and low rainfall conditions"
         ]
-    },
-    {
-        "title": "Mustard 35-36",
-        "category": "Mustard Seeds",
-        "image": "/assets/products/mustardseeds3536.webp",
+      },
+      {
+        "title": "Soyabean Jwala-13",
+        "category": "Soyabean",
+        "image": "/assets/products/jwala13.webp",
         "benefits": [
-            "This hybrid variety has the potential to yield 12-14 quintals per acre.",
-            "This variety matures and is ready for harvest in approximately 120-130 days.",
-            "1 kg of seed is sufficient for sowing 1 acre of this variety.",
-            "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
-            "Frost resistant"
+          "Maturity duration of only 85 to 92 days",
+          "Seed rate of just 35 to 40 kg per acre",
+          "Crop has a bright, shiny yellow color",
+          "Average yield of 25 to 28 quintals per hectare",
+          "Excellent disease resistance including mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+          "Excellent germination capacity",
+          "Performs well even in heavy rainfall and dense soil conditions"
         ]
-    },
-    {
+      },
+      {
+        "title": "Mustard",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds.webp",
+        "benefits": [
+          "This hybrid variety has the potential to yield 12-14 quintals per acre.",
+          "This variety matures and is ready for harvest in approximately 120-130 days.",
+          "1 kg of seed is sufficient for sowing 1 acre of this variety.",
+          "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
+          "Frost resistant"
+        ]
+      },
+      {
         "title": "Chia Seeds",
         "category": "Chia Seeds",
         "image": "/assets/products/chiaseeds.webp",
         "benefits": [
-            "This variety gives a higher yield compared to normal Chia.",
-            "Maturity Period: It matures and becomes ready for harvest in approximately 110 to 120 days.",
-            "Sowing: 1 kg of seeds is sufficient for sowing in 1 acre.",
-            "Irrigation: It requires 4-5 light irrigations.",
-            "Yield: A production of approximately 6 quintals per acre can be obtained.",
-            "Frost Resistant: This variety is tolerant to frost conditions.",
-            "Disease Resistance: It is less susceptible to diseases."
+          "This variety gives a higher yield compared to normal Chia.",
+          "Maturity Period: It matures and becomes ready for harvest in approximately 110 to 120 days.",
+          "Sowing: 1 kg of seeds is sufficient for sowing in 1 acre.",
+          "Irrigation: It requires 4-5 light irrigations.",
+          "Yield: A production of approximately 6 quintals per acre can be obtained.",
+          "Frost Resistant: This variety is tolerant to frost conditions.",
+          "Disease Resistance: It is less susceptible to diseases."
         ]
-    },
-    {
+      },
+      {
         "title": "Wheat Seeds AW21",
         "category": "Wheat Seeds",
         "image": "/assets/products/wheatseeds-aw21.webp",
         "benefits": [
-            "High Yield: This variety is high-yielding, especially in Madhya Pradesh.",
-            "Better Grain Quality: It has superior grain quality, making it suitable for making rotis and other uses.",
-            "Disease Resistant: This variety is resistant to some common wheat diseases, helping farmers use fewer pesticides.",
-            "Enhanced Nutritional Value: This variety has better nutrition levels, making it more nutritious for human consumption.",
-            "Crop Duration: This variety matures in 115 to 120 days, making it an attractive option for farmers.",
-            "Lodging Resistance: The plant height is 90-95 cm, which prevents it from falling even in strong winds, keeping the yield safe.",
-            "Irrigation Requirement: This variety typically requires 3-4 irrigations.",
-            "Suitability: This variety is suitable for cultivation in states like Madhya Pradesh, Chhattisgarh, Rajasthan, and Gujarat.",
-            "Seed Rate: A seed rate of 40-45 kg per acre is recommended."
+          "High Yield: This variety is high-yielding, especially in Madhya Pradesh.",
+          "Better Grain Quality: It has superior grain quality, making it suitable for making rotis and other uses.",
+          "Disease Resistant: This variety is resistant to some common wheat diseases, helping farmers use fewer pesticides.",
+          "Enhanced Nutritional Value: This variety has better nutrition levels, making it more nutritious for human consumption.",
+          "Crop Duration: This variety matures in 115 to 120 days, making it an attractive option for farmers.",
+          "Lodging Resistance: The plant height is 90-95 cm, which prevents it from falling even in strong winds, keeping the yield safe.",
+          "Irrigation Requirement: This variety typically requires 3-4 irrigations.",
+          "Suitability: This variety is suitable for cultivation in states like Madhya Pradesh, Chhattisgarh, Rajasthan, and Gujarat.",
+          "Seed Rate: A seed rate of 40-45 kg per acre is recommended."
         ]
-    },
-    {
+      },
+      {
         "title": "Shiva",
         "category": "Gram Seeds",
-        "image": "/assets/products/gramseedsmegha.webp",
+        "image": "/assets/products/shivagramseeds.webp",
         "benefits": [
-            "High Yield Potential: Shiva Chana can provide a yield of up to 39 quintals per hectare, which is equivalent to 15.5 quintals per acre.",
-            "Disease Resistance: This gram variety is resistant to diseases like Fusarium wilt.",
-            "Drought Tolerance: This variety can provide a good yield even in low water conditions.",
-            "Crop Duration: Ganpati 101 gram matures and is ready in 105-110 days.",
-            "Suitability: This variety is recommended for sowing in the Rabi season and under irrigated conditions.",
-            "Seed Rate: A seed rate of 30-35 kg per acre is recommended."
+          "High Yield Potential: Shiva Chana can provide a yield of up to 39 quintals per hectare, which is equivalent to 15.5 quintals per acre.",
+          "Disease Resistance: This gram variety is resistant to diseases like Fusarium wilt.",
+          "Drought Tolerance: This variety can provide a good yield even in low water conditions.",
+          "Crop Duration: Ganpati 101 gram matures and is ready in 105-110 days.",
+          "Suitability: This variety is recommended for sowing in the Rabi season and under irrigated conditions.",
+          "Seed Rate: A seed rate of 30-35 kg per acre is recommended."
         ]
-    },
-    {
+      },
+      {
         "title": "Megha",
         "category": "Moong Seeds",
         "image": "/assets/products/moongseedsmegha.webp",
         "benefits": [
-            "Disease Resistance: This variety is resistant to diseases like Yellow Mosaic Virus and Leaf Curl.",
-            "Production: Its yield potential is 12 to 20 quintals per hectare, which is higher compared to other varieties.",
-            "Crop Duration: This variety matures and is ready for harvest in 50 to 65 days.",
-            "Suitable Timing: It can be sown in Kharif, Summer, and Spring seasons.",
-            "Irrigation: Perform the first irrigation approximately 22 days after sowing, followed by two more irrigations at 15-day intervals.",
-            "Fertilizer: Use Urea, Single Super Phosphate (SSP), and Potash; apply fertilizers only after getting a soil test done."
+          "Disease Resistance: This variety is resistant to diseases like Yellow Mosaic Virus and Leaf Curl.",
+          "Production: Its yield potential is 12 to 20 quintals per hectare, which is higher compared to other varieties.",
+          "Crop Duration: This variety matures and is ready for harvest in 50 to 65 days.",
+          "Suitable Timing: It can be sown in Kharif, Summer, and Spring seasons.",
+          "Irrigation: Perform the first irrigation approximately 22 days after sowing, followed by two more irrigations at 15-day intervals.",
+          "Fertilizer: Use Urea, Single Super Phosphate (SSP), and Potash; apply fertilizers only after getting a soil test done."
         ]
-    },
-    
-    {
+      },
+      {
+        "title": "Mustard 35-36",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds3536.webp",
+        "benefits": [
+          "This hybrid variety has the potential to yield 12-14 quintals per acre.",
+          "This variety matures and is ready for harvest in approximately 120-130 days.",
+          "1 kg of seed is sufficient for sowing 1 acre of this variety.",
+          "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
+          "Frost resistant"
+        ]
+      },
+
+      {
         "title": "PDM-139",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongseeds-pdm139.webp",
-        "benefits": []
-    },
-    {
+        "image": "/assets/products/moongseeds-pdm139.webp"
+      },
+      {
         "title": "S-444",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongseeds-s444.webp",
-        "benefits": []
-    },
-    {
+        "image": "/assets/products/moongseeds-s444.webp"
+      },
+      {
         "title": "Double Talvar",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongseedsdoubletalvar.webp",
-        "benefits": []
-    },
-    {
+        "image": "/assets/products/moongseedsdoubletalvar.webp"
+      },
+      {
         "title": "Hum-12",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongseedshum12.webp",
-        "benefits": []
-    },
-    {
+        "image": "/assets/products/moongseedshum12.webp"
+      },
+      {
         "title": "Jhumki",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongseedsjhumki.webp",
-        "benefits": []
-    },
-    {
+        "image": "/assets/products/moongseedsjhumki.webp"
+      },
+      {
         "title": "Shikha IPM-410",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongseedsshikhaipm410.webp",
-        "benefits": []
-    },
-    {
+        "image": "/assets/products/moongseedsshikhaipm410.webp"
+      },
+      {
         "title": "Virat",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongseedvirat.webp",
-        "benefits": []
-    },
-    {
+        "image": "/assets/products/moongseedvirat.webp"
+      },
+      {
         "title": "Sanskriti PDM-139",
         "category": "Moong Seeds",
-        "image": "/assets/products/sanskritimoongseeds-pdm139.webp",
-        "benefits": []
-    },
-    {
-        "title": "Mustard",
-        "category": "Mustard Seeds",
-        "image": "/assets/products/mustardseeds.webp",
-        "benefits": []
-    }
-]
+        "image": "/assets/products/sanskritimoongseeds-pdm139.webp"
+      },
+
+      {
+        "title": "HUM-16",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon.webp"
+      },
+      {
+        "title": "HUM-27",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon.webp"
+      },
+      {
+        "title": "MH-1142",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon.webp"
+      },
+      {
+        "title": "MH-421",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon.webp"
+      },
+      {
+        "title": "Vishal",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon.webp"
+      },
+      {
+        "title": "JG-130",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon.webp"
+      },
+      {
+        "title": "JG-11",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon.webp"
+      },
+      {
+        "title": "R VEG-202",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon.webp"
+      },
+      {
+        "title": "R VEG-204",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon.webp"
+      },
+      {
+        "title": "Pusha Manav",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon.webp"
+      },
+      {
+        "title": "LOK-1",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "Tejas HI-8759",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "GW-322",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HI-1544",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "DBW-303",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "DBW-377",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HI-1650",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HD-3385",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "GW-513",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HI-8850",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      }
+    ]
   },
   "whatsapp": {
     "navbar": "Hello, I recently visited your website and would like to know more about your agricultural products, services, and how you can help me. Please share complete details.",

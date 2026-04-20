@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useI18n } from '../../i18n/provider';
+import { handleEnquire } from '../../utils/whatsapp';
 // import { sendWhatsAppMessage } from '../../utils/whatsapp';
 
 const Products = () => {
@@ -16,10 +17,8 @@ const Products = () => {
     returnObjects: true,
   }) as Array<{
     title: string;
-    subtitle: string;
     category: string;
     image: string;
-    description: string;
     benefits: string[];
   }>;
 
@@ -29,7 +28,7 @@ const Products = () => {
 
     const matchesSearch =
       item.title?.toLowerCase().includes(search.toLowerCase()) ||
-      item.subtitle?.toLowerCase().includes(search.toLowerCase());
+      item.category?.toLowerCase().includes(search.toLowerCase());
 
     return matchesCategory && matchesSearch;
   });
@@ -85,6 +84,7 @@ const Products = () => {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-10">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((item, idx) => (
+            
             <div
               key={idx}
               className="group relative h-90 overflow-hidden rounded-3xl shadow-md"
@@ -104,9 +104,7 @@ const Products = () => {
 
                 <h3 className="mt-1 text-lg font-semibold">{item.title}</h3>
 
-                <p className="mt-1 text-xs text-white/80 line-clamp-2">
-                  {item.description}
-                </p>
+                
 
                 {expandedIndex === idx ? (
                   <ul className="mt-2 text-[10px] text-white/70 space-y-1">
@@ -132,14 +130,20 @@ const Products = () => {
                   </button>
                 )}
 
-                <button className="mt-3 rounded-full bg-primary px-4 py-1 text-xs text-white">
-                  {t('common.button.enquireNow')}
-                </button>
+                <button className="rounded-full bg-primary px-3 py-2 text-xs font-medium text-white hover:scale-110 transition flex items-center gap-2 cursor-pointer" onClick={() => handleEnquire(item,t)}>
+                    <span>{t('common.button.enquireNow')}</span>{' '}
+                    <span
+                      className="material-symbols-outlined"
+                      style={{ fontSize: '12px' }}
+                    >
+                      line_end_arrow_notch
+                    </span>
+                  </button>
               </div>
             </div>
           ))
         ) : (
-          <p className="text-gray-500 col-span-full text-center"> 
+          <p className="text-gray-500 col-span-full text-center">
             No products found
           </p>
         )}
