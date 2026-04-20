@@ -1,8 +1,10 @@
 import { useI18n } from '../../../i18n/provider';
-
+import { PATH_DASHBOARD } from '../../../routes/paths';
+import { useNavigate } from 'react-router-dom';
 
 export default function FeaturedProducts() {
   const { t } = useI18n();
+  const navigate = useNavigate();
 
   const products = t('home.featuredProducts.products', { returnObjects: true }) as Array<{
   title: string;
@@ -23,7 +25,7 @@ export default function FeaturedProducts() {
             </h2>
           </div>
 
-          <button className="flex items-center gap-2 text-sm font-medium text-primary ">
+          <button className="flex items-center gap-2 text-sm font-medium text-primary cursor-pointer" onClick={() => navigate(PATH_DASHBOARD.products)}>
             <span className="hover:underline">  {t('home.featuredProducts.allProducts')}</span>
             <span
               className="material-symbols-outlined"

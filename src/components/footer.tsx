@@ -86,17 +86,17 @@ const Footer = () => {
             <div className="space-y-4 text-sm">
               <div className="flex items-center gap-3">
                 <span className="material-symbols-outlined">call</span>
-                <span>+91 98765 43210</span>
+                <span>{t('footer.headings.phone')}</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <span className="material-symbols-outlined">mail</span>
-                <span>hello@aerosseeds.in</span>
+                <span>{t('footer.headings.email')}</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <span className="material-symbols-outlined">location_on</span>
-                <span>{t('common.address')}</span>
+                <span>{t('footer.headings.address')}</span>
               </div>
             </div>
           </div>
