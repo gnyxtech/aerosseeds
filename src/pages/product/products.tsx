@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useI18n } from '../../i18n/provider';
+// import { sendWhatsAppMessage } from '../../utils/whatsapp';
 
 const Products = () => {
   const { t } = useI18n();
