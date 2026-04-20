@@ -84,7 +84,6 @@ const Products = () => {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-10">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((item, idx) => (
-            
             <div
               key={idx}
               className="group relative h-90 overflow-hidden rounded-3xl shadow-md"
@@ -104,41 +103,45 @@ const Products = () => {
 
                 <h3 className="mt-1 text-lg font-semibold">{item.title}</h3>
 
-                
-
-                {expandedIndex === idx ? (
-                  <ul className="mt-2 text-[10px] text-white/70 space-y-1">
-                    {item.benefits.map((b, i) => (
-                      <li key={i}>• {b}</li>
-                    ))}
-                  </ul>
-                ) : (
-                  <ul className="mt-2 text-[10px] text-white/70 space-y-1">
-                    {item.benefits?.slice(0, 2).map((b, i) => (
-                      <li key={i}>• {b}</li>
-                    ))}
-                  </ul>
-                )}
-                {item.benefits?.length > 2 && (
-                  <button
-                    onClick={() =>
-                      setExpandedIndex(expandedIndex === idx ? null : idx)
-                    }
-                    className="text-[10px] text-white mt-1 mr-4 underline"
+                {item.benefits &&
+                  <div>
+                    {expandedIndex === idx ? (
+                      <ul className="mt-2 text-[10px] text-white/70 space-y-1">
+                        {item.benefits.map((b, i) => (
+                          <li key={i}>• {b}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <ul className="mt-2 text-[10px] text-white/70 space-y-1">
+                        {item.benefits?.slice(0, 2).map((b, i) => (
+                          <li key={i}>• {b}</li>
+                        ))}
+                      </ul>
+                    )}
+                    {item.benefits?.length > 2 && (
+                      <button
+                        onClick={() =>
+                          setExpandedIndex(expandedIndex === idx ? null : idx)
+                        }
+                        className="text-[10px] text-white mt-1 mr-4 underline"
+                      >
+                        {expandedIndex === idx ? 'View less' : 'View more'}
+                      </button>
+                    )}
+                  </div>
+                }
+                <button
+                  className="rounded-full bg-primary mt-2 px-3 py-2 text-xs font-medium text-white hover:scale-110 transition flex items-center gap-2 cursor-pointer"
+                  onClick={() => handleEnquire(item, t)}
+                >
+                  <span>{t('common.button.enquireNow')}</span>{' '}
+                  <span
+                    className="material-symbols-outlined"
+                    style={{ fontSize: '12px' }}
                   >
-                    {expandedIndex === idx ? 'View less' : 'View more'}
-                  </button>
-                )}
-
-                <button className="rounded-full bg-primary px-3 py-2 text-xs font-medium text-white hover:scale-110 transition flex items-center gap-2 cursor-pointer" onClick={() => handleEnquire(item,t)}>
-                    <span>{t('common.button.enquireNow')}</span>{' '}
-                    <span
-                      className="material-symbols-outlined"
-                      style={{ fontSize: '12px' }}
-                    >
-                      line_end_arrow_notch
-                    </span>
-                  </button>
+                    line_end_arrow_notch
+                  </span>
+                </button>
               </div>
             </div>
           ))
