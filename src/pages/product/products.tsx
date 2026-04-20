@@ -28,8 +28,8 @@ const Products = () => {
       activeIndex === 0 || item.category === categories[activeIndex];
 
     const matchesSearch =
-      item.title.toLowerCase().includes(search.toLowerCase()) ||
-      item.subtitle.toLowerCase().includes(search.toLowerCase());
+      item.title?.toLowerCase().includes(search.toLowerCase()) ||
+      item.subtitle?.toLowerCase().includes(search.toLowerCase());
 
     return matchesCategory && matchesSearch;
   });

@@ -1,8 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../../../i18n/provider';
 import { sendWhatsAppMessage } from '../../../utils/whatsapp';
+import { PATH_DASHBOARD } from '../../../routes/paths';
 
 function Hero() {
   const { t } = useI18n();
+  const navigate = useNavigate();
 
   const handleWhatsapp = () => {
     const message = t('whatsapp.hero');
@@ -59,7 +62,7 @@ function Hero() {
               {t('common.button.chatOnWhatsapp')}
             </button>
 
-            <button className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 font-medium text-gray-800 hover:bg-gray-50 transition cursor-pointer">
+            <button className="rounded-full flex items-center gap-2 border border-gray-300 bg-white px-5 py-3 font-medium text-gray-800 hover:bg-gray-50 transition cursor-pointer" onClick={() => navigate(PATH_DASHBOARD.products)}>
               {t('common.button.browseSeeds')}{' '}
               <span
                 className="material-symbols-outlined"
