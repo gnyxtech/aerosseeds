@@ -25,3 +25,17 @@ export const buildMessage = (
 
   return msg;
 };
+
+export const handleEnquire = (
+  item: { title: string; category: string },
+  t: (key: string, options?: any) => string
+) => {
+  const template = t('common.enquireMessage');
+
+  const message = buildMessage(template, {
+    title: item.title,
+    category: item.category,
+  });
+
+  sendWhatsAppMessage({ message });
+};
