@@ -1,20 +1,25 @@
-import { useI18n } from "../../../i18n/provider";
+import { useI18n } from '../../../i18n/provider';
+import { motion } from 'framer-motion';
+import { cardFade, fadeIn, staggerContainer } from '../../../utils/animation';
 
 export default function Process() {
-    const { t } = useI18n();
-      const steps = t('home.process.steps', {
-        returnObjects: true,
-      }) as Array<{
-        id: string;
-        title: string;
-        description: string;
-        image: string;
-      }>;
+  const { t } = useI18n();
+  const steps = t('home.process.steps', {
+    returnObjects: true,
+  }) as Array<{
+    id: string;
+    title: string;
+    description: string;
+    image: string;
+  }>;
   return (
     <section className="w-full  py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
+        <motion.div
+          {...fadeIn({ direction: 'left', delay: 0.2 })}
+          className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12"
+        >
           <div>
             <p className="text-xs tracking-[0.3em] text-primary uppercase">
               {t('home.process.heading')}
@@ -25,15 +30,22 @@ export default function Process() {
           </div>
 
           <p className="text-gray-600 max-w-md">
-              {t('home.process.description')}
+            {t('home.process.description')}
           </p>
-        </div>
+        </motion.div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+        >
           {steps.map((step) => (
-            <div
+            <motion.div
               key={step.id}
+              variants={cardFade}
               className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition"
             >
               <div className="h-56 w-full overflow-hidden">
@@ -58,10 +70,10 @@ export default function Process() {
                   {step.description}
                 </p>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
-};
+}

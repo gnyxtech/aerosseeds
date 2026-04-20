@@ -1,4 +1,6 @@
 import { useI18n } from '../../../i18n/provider';
+import { motion } from 'framer-motion';
+import { cardFade, fadeIn, staggerContainer } from '../../../utils/animation';
 
 export default function TrustSection() {
   const { t } = useI18n();
@@ -13,7 +15,10 @@ export default function TrustSection() {
     <section className="w-full bg-secondary/25 px-6 py-16 md:py-24">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
-        <div className="max-w-2xl">
+        <motion.div
+          {...fadeIn({ direction: 'left', delay: 0.2 })}
+          className="max-w-2xl"
+        >
           <p className="text-xs tracking-[0.3em] text-primary uppercase">
             {t('home.trustSection.heading')}
           </p>
@@ -25,13 +30,20 @@ export default function TrustSection() {
           <p className="mt-4 text-gray-600">
             {t('home.trustSection.description')}
           </p>
-        </div>
+        </motion.div>
 
         {/* Cards */}
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4"
+        >
           {features.map((item, idx) => (
-            <div
+            <motion.div
               key={idx}
+              variants={cardFade}
               className="rounded-2xl bg-white p-6 shadow-sm border border-gray-100 hover:shadow-md transition"
             >
               {/* icon placeholder */}
@@ -44,9 +56,9 @@ export default function TrustSection() {
               </h3>
 
               <p className="mt-2 text-sm text-gray-600">{item.desc}</p>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

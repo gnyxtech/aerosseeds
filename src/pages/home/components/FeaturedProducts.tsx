@@ -1,8 +1,10 @@
+import { motion } from 'framer-motion';
 import { useI18n } from '../../../i18n/provider';
 import { PATH_DASHBOARD } from '../../../routes/paths';
 import { useNavigate } from 'react-router-dom';
 import { handleEnquire } from '../../../utils/whatsapp';
 import { useState } from 'react';
+import { cardFade, fadeIn, staggerContainer } from '../../../utils/animation';
 
 export default function FeaturedProducts() {
   const { t } = useI18n();
@@ -22,14 +24,14 @@ export default function FeaturedProducts() {
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-          <div>
+          <motion.div {...fadeIn({ direction: 'left', delay: 0.2 })}>
             <p className="text-xs tracking-[0.3em] text-primary uppercase">
               {t('home.featuredProducts.heading')}
             </p>
             <h2 className="mt-2 text-3xl font-semibold text-gray-900 md:text-4xl">
               {t('home.featuredProducts.subHeading')}
             </h2>
-          </div>
+          </motion.div>
 
           <button
             className="flex items-center gap-2 text-sm font-medium text-primary cursor-pointer"
@@ -49,10 +51,17 @@ export default function FeaturedProducts() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+        >
           {products.map((item, idx) => (
-            <div
+            <motion.div
               key={idx}
+              variants={cardFade}
               className="group relative h-90 overflow-hidden rounded-3xl shadow-md"
             >
               <img
@@ -111,9 +120,9 @@ export default function FeaturedProducts() {
                   </span>
                 </button>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
