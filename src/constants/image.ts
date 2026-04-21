@@ -7,6 +7,7 @@ export const APP_IMAGE = {
   sanskriti_logo: '/assets/images/sanskriti_logo.webp',
   whatsappSVG: '/assets/svgs/whatsapp.svg',
   facebookSVG: '/assets/svgs/facebook.svg',
+  facebookWhiteSVG: '/assets/svgs/facebook-white.svg',
   indiaSVG: '/assets/svgs/india.svg',
   instagramSVG: '/assets/svgs/instagram.svg',
   instagramWhiteSVG: '/assets/svgs/instagram-white.svg',

@@ -44,7 +44,7 @@ const About = () => {
             <img
               src={APP_IMAGE.factory_new}
               alt="Farmer"
-              className="w-full h-[500px] object-cover rounded-3xl shadow-lg"
+              className="w-full  object-cover rounded-3xl shadow-lg"
             />
           </div>
         </div>

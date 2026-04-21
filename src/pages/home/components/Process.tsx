@@ -52,7 +52,7 @@ export default function Process() {
                 <img
                   src={step.image}
                   alt={step.title}
-                  className="h-full w-full object-cover"
+                  className="h-auto w-full object-cover"
                 />
               </div>
 

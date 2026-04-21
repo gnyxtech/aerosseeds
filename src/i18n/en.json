@@ -79,7 +79,7 @@
           ]
         },
         {
-          "title": "Soyabean Jwala-07",
+          "title": "Improved Jwala-07 Soyabean",
           "category": "Soyabean",
           "image": "/assets/products/jwala07.webp",
           "benefits": [
@@ -93,7 +93,7 @@
           ]
         },
         {
-          "title": "Soyabean Jwala-13",
+          "title": "Improved Jwala-13 Soyabean",
           "category": "Soyabean",
           "image": "/assets/products/jwala13.webp",
           "benefits": [
@@ -108,19 +108,19 @@
         },
 
         {
-          "title": "Mustard",
-          "category": "Mustard Seeds",
-          "image": "/assets/products/mustardseeds.webp",
-          "benefits": [
-            "This hybrid variety has the potential to yield 12-14 quintals per acre.",
-            "This variety matures and is ready for harvest in approximately 120-130 days.",
-            "1 kg of seed is sufficient for sowing 1 acre of this variety.",
-            "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
-            "Frost resistant"
-          ]
-        },
+        "title": "Improved Mustard 35-36",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds3536.webp",
+        "benefits": [
+          "This hybrid variety has the potential to yield 12-14 quintals per acre.",
+          "This variety matures and is ready for harvest in approximately 120-130 days.",
+          "1 kg of seed is sufficient for sowing 1 acre of this variety.",
+          "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
+          "Frost resistant"
+        ]
+      },
         {
-          "title": "Chia Seeds",
+          "title": "Improved Chia Seeds",
           "category": "Chia Seeds",
           "image": "/assets/products/chiaseeds.webp",
           "benefits": [
@@ -134,7 +134,7 @@
           ]
         },
         {
-          "title": "Wheat Seeds AW21",
+          "title": "Improved Wheat Seeds AW21",
           "category": "Wheat Seeds",
           "image": "/assets/products/wheatseeds-aw21.webp",
           "benefits": [
@@ -151,7 +151,7 @@
         },
 
         {
-          "title": "Shiva",
+          "title": "Improved Shiva",
           "category": "Gram Seeds",
           "image": "/assets/products/shivagramseeds.webp",
           "benefits": [
@@ -165,7 +165,7 @@
         },
 
         {
-          "title": "Megha",
+          "title": "Improved Megha",
           "category": "Moong Seeds",
           "image": "/assets/products/moongseedsmegha.webp",
           "benefits": [
@@ -178,7 +178,7 @@
           ]
         }
       ]
-    },
+    }, 
     "trustSection": {
       "heading": "Why Aeros Seeds?",
       "subHeading": "Trust grown over generations",
@@ -443,7 +443,7 @@
         ]
       },
       {
-        "title": "Soyabean Jwala-07",
+        "title": "Improved Jwala-07 Soyabean",
         "category": "Soyabean",
         "image": "/assets/products/jwala07.webp",
         "benefits": [
@@ -457,7 +457,7 @@
         ]
       },
       {
-        "title": "Soyabean Jwala-13",
+        "title": "Improved Jwala-13 Soyabean",
         "category": "Soyabean",
         "image": "/assets/products/jwala13.webp",
         "benefits": [
@@ -471,9 +471,9 @@
         ]
       },
       {
-        "title": "Mustard",
+        "title": "Improved Mustard 35-36",
         "category": "Mustard Seeds",
-        "image": "/assets/products/mustardseeds.webp",
+        "image": "/assets/products/mustardseeds3536.webp",
         "benefits": [
           "This hybrid variety has the potential to yield 12-14 quintals per acre.",
           "This variety matures and is ready for harvest in approximately 120-130 days.",
@@ -483,7 +483,7 @@
         ]
       },
       {
-        "title": "Chia Seeds",
+        "title": "Improved Chia Seeds",
         "category": "Chia Seeds",
         "image": "/assets/products/chiaseeds.webp",
         "benefits": [
@@ -497,7 +497,7 @@
         ]
       },
       {
-        "title": "Wheat Seeds AW21",
+        "title": "Improved Wheat Seeds AW21",
         "category": "Wheat Seeds",
         "image": "/assets/products/wheatseeds-aw21.webp",
         "benefits": [
@@ -513,7 +513,7 @@
         ]
       },
       {
-        "title": "Shiva",
+        "title": "Improved Shiva",
         "category": "Gram Seeds",
         "image": "/assets/products/shivagramseeds.webp",
         "benefits": [
@@ -526,7 +526,7 @@
         ]
       },
       {
-        "title": "Megha",
+        "title": "Improved Megha",
         "category": "Moong Seeds",
         "image": "/assets/products/moongseedsmegha.webp",
         "benefits": [
@@ -538,10 +538,11 @@
           "Fertilizer: Use Urea, Single Super Phosphate (SSP), and Potash; apply fertilizers only after getting a soil test done."
         ]
       },
+      
       {
-        "title": "Mustard 35-36",
+        "title": "Mustard",
         "category": "Mustard Seeds",
-        "image": "/assets/products/mustardseeds3536.webp",
+        "image": "/assets/products/mustardseeds.webp",
         "benefits": [
           "This hybrid variety has the potential to yield 12-14 quintals per acre.",
           "This variety matures and is ready for harvest in approximately 120-130 days.",
@@ -595,52 +596,52 @@
       {
         "title": "HUM-16",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon1.webp"
       },
       {
         "title": "HUM-27",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon2.webp"
       },
       {
         "title": "MH-1142",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon3.webp"
       },
       {
         "title": "MH-421",
         "category": "Moong Seeds",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon1.webp"
       },
       {
         "title": "Vishal",
         "category": "Gram Seeds",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon1.webp"
       },
       {
         "title": "JG-130",
         "category": "Gram Seeds",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon2.webp"
       },
       {
         "title": "JG-11",
         "category": "Gram Seeds",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon1.webp"
       },
       {
         "title": "R VEG-202",
         "category": "Gram Seeds",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon2.webp"
       },
       {
         "title": "R VEG-204",
         "category": "Gram Seeds",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon1.webp"
       },
       {
         "title": "Pusha Manav",
         "category": "Gram Seeds",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon2.webp"
       },
       {
         "title": "LOK-1",
@@ -691,7 +692,42 @@
         "title": "HI-8850",
         "category": "Wheat Seeds",
         "image": "/assets/products/wheatcommon.webp"
-      }
+      },
+      {
+        "title": "JS-9560",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon1.webp"
+    },
+    {
+        "title": "JS-2172",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon2.webp"
+    },
+    {
+        "title": "JS-2117",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon3.webp"
+    },
+    {
+        "title": "JS-2218",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon4.webp"
+    },
+    {
+        "title": "Black Gold",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon5.webp"
+    },
+    {
+        "title": "NRC-150",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon1.webp"
+    },
+    {
+        "title": "JS-2303",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon2.webp"
+    }
     ]
   },
   "whatsapp": {
