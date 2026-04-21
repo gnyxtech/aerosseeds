@@ -180,7 +180,7 @@
       ]
     },
     "trustSection": {
-      "heading": "Why Aeros?",
+      "heading": "Why Aeros Seeds?",
       "subHeading": "Trust grown over generations",
       "description": "We don’t just sell seeds — we stand behind every packet with science, support and a promise of quality you can taste in every harvest.",
       "features": [
@@ -284,11 +284,11 @@
     "form": {
       "name": {
         "heading": "YOUR NAME",
-        "placeholder": "Ramesh Patil"
+        "placeholder": "Enter your name"
       },
       "phone": {
         "heading": "PHONE NUMBER",
-        "placeholder": "9876543210"
+        "placeholder": "Enter your phone number"
       },
       "message": {
         "heading": "YOUR MESSAGE",
