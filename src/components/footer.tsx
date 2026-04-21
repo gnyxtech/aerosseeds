@@ -50,10 +50,18 @@ const Footer = () => {
               {t('common.button.chatOnWhatsapp')}
             </button> */}
             <div className="flex items-center gap-4 mb-6 text-primary">
-              <a href="https://www.instagram.com/aeros_seeds" target="_blank">
+              <a href="https://www.instagram.com/aeros_seeds_" target="_blank">
                 {' '}
                 <img
                   src={APP_IMAGE.instagramSVG}
+                  className="w-6 text-primary"
+                  alt="instagram"
+                />
+              </a>
+              <a href="https://www.facebook.com/share/1DhNWzF6Zo/?mibextid=wwXIfr" target="_blank">
+                {' '}
+                <img
+                  src={APP_IMAGE.facebookSVG}
                   className="w-6 text-primary"
                   alt="instagram"
                 />

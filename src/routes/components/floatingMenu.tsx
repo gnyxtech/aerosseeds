@@ -26,26 +26,36 @@ const FloatingActions = () => {
         {/* CALL */}
         <button
           onClick={() => window.open('tel:+919329202018')}
-          className="w-14 h-14 rounded-full bg-green-500 flex items-center justify-center text-white shadow-lg hover:scale-110 transition"
+          className="w-14 h-14 rounded-full bg-primary flex items-center justify-center text-white shadow-lg hover:scale-110 transition"
         >
-          <span className="material-symbols-outlined">call</span>
-        </button>
-
-        {/* INSTAGRAM */}
-        <button
-          onClick={() => window.open('https://www.instagram.com/aeros_seeds')}
-          className="w-14 h-14 rounded-full bg-green-400 flex items-center justify-center text-white shadow-lg hover:scale-110 transition p-3"
-        >
-          <img src={APP_IMAGE.instagramWhiteSVG} alt="instagram" />
+          <span className="material-symbols-outlined" style={{fontSize: "28px"}}>call</span>
         </button>
 
         {/* WHATSAPP */}
         <button
           onClick={handleWhatsapp}
-          className="w-14 h-14 rounded-full bg-green-400 flex items-center justify-center text-white shadow-lg hover:scale-110 transition p-3"
+          className="w-14 h-14 rounded-full bg-primary flex items-center justify-center text-white shadow-lg hover:scale-110 transition p-3"
         >
           <img src={APP_IMAGE.whatsappSVG} alt="whatsAPP" />
         </button>
+
+        {/* INSTAGRAM */}
+        <button
+          onClick={() => window.open('https://www.instagram.com/aeros_seeds_')}
+          className="w-14 h-14 rounded-full bg-primary flex items-center justify-center text-white shadow-lg hover:scale-110 transition p-3"
+        >
+          <img src={APP_IMAGE.instagramWhiteSVG} alt="instagram" />
+        </button>
+
+        {/* FACEBOOK */}
+        <button
+          onClick={() => window.open('https://www.facebook.com/share/1DhNWzF6Zo/?mibextid=wwXIfr')}
+          className="w-14 h-14 rounded-full bg-primary flex items-center justify-center text-white shadow-lg hover:scale-110 transition p-3"
+        >
+          <img src={APP_IMAGE.facebookWhiteSVG} alt="facebook" />
+        </button>
+
+        
       </div>
 
       {/* MAIN BUTTON */}

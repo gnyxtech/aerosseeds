@@ -79,7 +79,7 @@
           ]
         },
         {
-          "title": "सोयाबीन ज्वाला-07",
+          "title": "उन्नत ज्वाला-07 सोयाबीन",
           "category": "सोयाबीन",
           "image": "/assets/products/jwala07.webp",
           "benefits": [
@@ -93,7 +93,7 @@
           ]
         },
         {
-          "title": "सोयाबीन ज्वाला-13",
+          "title": "उन्नत ज्वाला-13 सोयाबीन",
           "category": "सोयाबीन",
           "image": "/assets/products/jwala13.webp",
           "benefits": [
@@ -107,19 +107,19 @@
           ]
         },
         {
-          "title": "सरसों",
-          "category": "सरसों बीज",
-          "image": "/assets/products/mustardseeds.webp",
-          "benefits": [
-            "यह हाइब्रिड किस्म 12-14 क्विंटल प्रति एकड़ तक उत्पादन देने की क्षमता रखती है।",
-            "यह किस्म लगभग 120-130 दिनों में पककर तैयार हो जाती है।",
-            "यह किस्म बुवाई के लिए 1 एकड़ में 1 किलो बीज पर्याप्त होता है।",
-            "इसकी फलिया लम्बी और दाने मोटे व वजनदार होते हैं एवं दाने भूरे काले रंग के होते हैं।",
-            "पाला प्रतिरोधी"
-          ]
-        },
+        "title": "उन्नत सरसों 35-36",
+        "category": "सरसों बीज",
+        "image": "/assets/products/mustardseeds3536.webp",
+        "benefits": [
+          "यह हाइब्रिड किस्म प्रति एकड़ 12-14 क्विंटल तक उत्पादन दे सकती है",
+          "लगभग 120-130 दिनों में तैयार होकर कटाई के लिए तैयार",
+          "1 एकड़ के लिए 1 किलोग्राम बीज पर्याप्त",
+          "फली लंबी, दाने मोटे और भारी, तथा रंग भूरा-काला",
+          "पाला सहनशील"
+        ]
+      },
         {
-          "title": "चिया बीज",
+          "title": "उन्नत चिया बीज",
           "category": "चिया बीज",
           "image": "/assets/products/chiaseeds.webp",
           "benefits": [
@@ -133,7 +133,7 @@
           ]
         },
         {
-          "title": "गेहूं बीज AW21",
+          "title": "उन्नत गेहूं बीज AW21",
           "category": "गेहूं बीज",
           "image": "/assets/products/wheatseeds-aw21.webp",
           "benefits": [
@@ -149,7 +149,7 @@
           ]
         },
         {
-          "title": "शिवा",
+          "title": "उन्नत शिवा",
           "category": "चना बीज",
           "image": "/assets/products/shivagramseeds.webp",
           "benefits": [
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "title": "मेघा",
+          "title": "उन्नत मेघा",
           "category": "मूंग बीज",
           "image": "/assets/products/moongseedsmegha.webp",
           "benefits": [
@@ -441,7 +441,7 @@
       },
 
       {
-        "title": "सोयाबीन ज्वाला-07",
+        "title": "उन्नत ज्वाला-07 सोयाबीन",
         "category": "सोयाबीन",
         "image": "/assets/products/jwala07.webp",
         "benefits": [
@@ -455,7 +455,7 @@
         ]
       },
       {
-        "title": "सोयाबीन ज्वाला-13",
+        "title": "उन्नत ज्वाला-13 सोयाबीन",
         "category": "सोयाबीन",
         "image": "/assets/products/jwala13.webp",
         "benefits": [
@@ -469,19 +469,20 @@
         ]
       },
       {
-        "title": "सरसों",
+        "title": "उन्नत सरसों 35-36",
         "category": "सरसों बीज",
-        "image": "/assets/products/mustardseeds.webp",
+        "image": "/assets/products/mustardseeds3536.webp",
         "benefits": [
-          "यह हाइब्रिड किस्म 12-14 क्विंटल प्रति एकड़ तक उत्पादन देने की क्षमता रखती है।",
-          "यह किस्म लगभग 120-130 दिनों में पककर तैयार हो जाती है।",
-          "यह किस्म बुवाई के लिए 1 एकड़ में 1 किलो बीज पर्याप्त होता है।",
-          "इसकी फलिया लम्बी और दाने मोटे व वजनदार होते हैं एवं दाने भूरे काले रंग के होते हैं।",
-          "पाला प्रतिरोधी"
+          "यह हाइब्रिड किस्म प्रति एकड़ 12-14 क्विंटल तक उत्पादन दे सकती है",
+          "लगभग 120-130 दिनों में तैयार होकर कटाई के लिए तैयार",
+          "1 एकड़ के लिए 1 किलोग्राम बीज पर्याप्त",
+          "फली लंबी, दाने मोटे और भारी, तथा रंग भूरा-काला",
+          "पाला सहनशील"
         ]
       },
+      
       {
-        "title": "चिया बीज",
+        "title": "उन्नत चिया बीज",
         "category": "चिया बीज",
         "image": "/assets/products/chiaseeds.webp",
         "benefits": [
@@ -495,7 +496,7 @@
         ]
       },
       {
-        "title": "गेहूं बीज AW21",
+        "title": "उन्नत गेहूं बीज AW21",
         "category": "गेहूं बीज",
         "image": "/assets/products/wheatseeds-aw21.webp",
         "benefits": [
@@ -511,7 +512,7 @@
         ]
       },
       {
-        "title": "शिवा",
+        "title": "उन्नत शिवा",
         "category": "चना बीज",
         "image": "/assets/products/shivagramseeds.webp",
         "benefits": [
@@ -524,7 +525,7 @@
         ]
       },
       {
-        "title": "मेघा",
+        "title": "उन्नत मेघा",
         "category": "मूंग बीज",
         "image": "/assets/products/moongseedsmegha.webp",
         "benefits": [
@@ -537,15 +538,15 @@
         ]
       },
       {
-        "title": "सरसों 35-36",
+        "title": "सरसों",
         "category": "सरसों बीज",
-        "image": "/assets/products/mustardseeds3536.webp",
+        "image": "/assets/products/mustardseeds.webp",
         "benefits": [
-          "यह हाइब्रिड किस्म प्रति एकड़ 12-14 क्विंटल तक उत्पादन दे सकती है",
-          "लगभग 120-130 दिनों में तैयार होकर कटाई के लिए तैयार",
-          "1 एकड़ के लिए 1 किलोग्राम बीज पर्याप्त",
-          "फली लंबी, दाने मोटे और भारी, तथा रंग भूरा-काला",
-          "पाला सहनशील"
+          "यह हाइब्रिड किस्म 12-14 क्विंटल प्रति एकड़ तक उत्पादन देने की क्षमता रखती है।",
+          "यह किस्म लगभग 120-130 दिनों में पककर तैयार हो जाती है।",
+          "यह किस्म बुवाई के लिए 1 एकड़ में 1 किलो बीज पर्याप्त होता है।",
+          "इसकी फलिया लम्बी और दाने मोटे व वजनदार होते हैं एवं दाने भूरे काले रंग के होते हैं।",
+          "पाला प्रतिरोधी"
         ]
       },
 
@@ -593,52 +594,52 @@
       {
         "title": "HUM-16",
         "category": "मूंग बीज",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon1.webp"
       },
       {
         "title": "HUM-27",
         "category": "मूंग बीज",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon2.webp"
       },
       {
         "title": "MH-1142",
         "category": "मूंग बीज",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon3.webp"
       },
       {
         "title": "MH-421",
         "category": "मूंग बीज",
-        "image": "/assets/products/moongcommon.webp"
+        "image": "/assets/products/moongcommon1.webp"
       },
       {
         "title": "विशाल",
         "category": "चना बीज",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon2.webp"
       },
       {
         "title": "JG-130",
         "category": "चना बीज",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon1.webp"
       },
       {
         "title": "JG-11",
         "category": "चना बीज",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon2.webp"
       },
       {
         "title": "R VEG-202",
         "category": "चना बीज",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon1.webp"
       },
       {
         "title": "R VEG-204",
         "category": "चना बीज",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon2.webp"
       },
       {
         "title": "पूसा मानव",
         "category": "चना बीज",
-        "image": "/assets/products/gramcommon.webp"
+        "image": "/assets/products/gramcommon1.webp"
       },
       {
         "title": "LOK-1",
@@ -689,7 +690,42 @@
         "title": "HI-8850",
         "category": "गेहूं बीज",
         "image": "/assets/products/wheatcommon.webp"
-      }
+      },
+      {
+        "title": "JS-9560",
+        "category": "सोयाबीन",
+        "image": "/assets/products/soyabeancommon1.webp"
+    },
+    {
+        "title": "JS-2172",
+        "category": "सोयाबीन",
+        "image": "/assets/products/soyabeancommon2.webp"
+    },
+    {
+        "title": "JS-2117",
+        "category": "सोयाबीन",
+        "image": "/assets/products/soyabeancommon3.webp"
+    },
+    {
+        "title": "JS-2218",
+        "category": "सोयाबीन",
+        "image": "/assets/products/soyabeancommon4.webp"
+    },
+    {
+        "title": "ब्लैक गोल्ड",
+        "category": "सोयाबीन",
+        "image": "/assets/products/soyabeancommon5.webp"
+    },
+    {
+        "title": "NRC-150",
+        "category": "सोयाबीन",
+        "image": "/assets/products/soyabeancommon1.webp"
+    },
+    {
+        "title": "JS-2303",
+        "category": "सोयाबीन",
+        "image": "/assets/products/soyabeancommon2.webp"
+    }
     ]
   },
   "whatsapp": {
