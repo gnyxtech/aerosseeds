@@ -96,7 +96,7 @@ const Products = () => {
               }`}
             >
               {/* Image */}
-              <div className="h-60 bg-black/5 flex items-center justify-center p-4 overflow-hidden">
+              <div className="h-80 sm:h-60 bg-black/5 flex items-center justify-center overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
@@ -105,7 +105,7 @@ const Products = () => {
               </div>
 
               {/* Content */}
-              <div className="flex flex-col gap-3 p-5">
+              <div className="flex flex-col gap-1 sm:gap-2 p-5">
                 {/* Title */}
                 <div>
                   <p className="text-[10px] tracking-widest text-primary uppercase">
@@ -127,7 +127,7 @@ const Products = () => {
                         opacity: expandedIndex === idx ? 1 : 0.9,
                       }}
                       transition={{ duration: 0.3, ease: 'easeInOut' }}
-                      className="mt-2 text-xs text-gray-600 space-y-1 leading-relaxed overflow-hidden"
+                      className=" text-xs text-gray-600 sm:space-y-1 leading-relaxed overflow-hidden"
                     >
                       {item.benefits.map((b, i) => (
                         <li key={i} className="flex gap-2">
