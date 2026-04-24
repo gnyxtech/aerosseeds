@@ -1,0 +1,747 @@
+{
+  "common": {
+    "ownerName": "Sandeep patel",
+    "aeros": "Aeros",
+    "seedsCo": "SEEDS CO.",
+    "aerosSeeds": "Aeros Seeds",
+    "address": "Hyderabad, Telangana, India",
+    "button": {
+      "chatOnWhatsapp": "Whatsapp",
+      "browseSeeds": "Browse Seeds",
+      "enquireNow": "Enquire Now",
+      "goHome": "Go Home",
+      "goBack": "Go Back"
+    },
+    "enquireMessage": "Hello, I recently visited your website and would like to know more about your {{title}} ({{category}}). Please share complete details.",
+    "products": {
+      "viewMore": "View more",
+      "viewLess": "View less"
+    }
+  },
+  "home": {
+    "hero": {
+      "leftBadge": "TRUSTED BY 50,000+ FARMERS",
+      "title1": "Premium Seeds.",
+      "title2": "Better Farming Growth.",
+      "description": "Aero Seeds is a trusted agriculture seed and biotech company dedicated to providing high-quality seeds for Indian farmers. We focus on productivity, crop performance, and farmer success.",
+      "rightBadge": "Premium Seeds",
+      "stat1": "Farmers served",
+      "stat2": "Germination",
+      "stat3": "Varieties"
+    },
+    "featuredProducts": {
+      "heading": "Our Range",
+      "subHeading": "Seeds for every season",
+      "allProducts": "All Products",
+      "products": [
+        {
+          "title": "Hybrid Maize 771",
+          "category": "Maize",
+          "image": "/assets/products/hybridmaize-771.webp",
+          "benefits": [
+            "Highly suitable for sowing with a seed drill",
+            "First choice of farmers",
+            "Higher yield and better market price",
+            "Cobs do not open even after maturity",
+            "Strong stem and root system, so the crop does not lodge in wind",
+            "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+            "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+          ]
+        },
+        {
+          "title": "Hybrid Maize 775",
+          "category": "Maize",
+          "image": "/assets/products/hybridmaize-775.webp",
+          "benefits": [
+            "Highly suitable for sowing with a seed drill",
+            "Maximum yield",
+            "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+            "Grain quality: kernels are bold, heavy, and yellow-orange in color, fetching good market prices",
+            "High shelling: 86–87% shelling percentage, meaning a high grain-to-cob ratio",
+            "Suitable for Central India, Bihar, Rajasthan, Gujarat, and Chhattisgarh",
+            "Fetches higher market price",
+            "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+          ]
+        },
+        {
+          "title": "Hybrid Maize 772",
+          "category": "Maize",
+          "image": "/assets/products/hybridmaize-772.webp",
+          "benefits": [
+            "Highly suitable for sowing with a seed drill",
+            "Excellent germination capacity",
+            "Known for high yield per acre",
+            "High starch content, making it ideal for ethanol production",
+            "Strong disease resistance",
+            "Strong stem provides resistance against lodging",
+            "Uniform cobs filled up to the tip",
+            "Fetches higher market price"
+          ]
+        },
+        {
+          "title": "Improved Jwala-07 Soyabean",
+          "category": "Soyabean",
+          "image": "/assets/products/jwala07.webp",
+          "benefits": [
+            "Maturity duration: 85 to 95 days",
+            "Seed rate: 40–45 kg per acre",
+            "Grain color: bright yellow",
+            "Average yield: 24 to 27 quintals per hectare",
+            "Special feature: resistant to diseases like yellow mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+            "Excellent germination capacity",
+            "Suitable for timely sowing and adaptable to both high and low rainfall conditions"
+          ]
+        },
+        {
+          "title": "Improved Jwala-13 Soyabean",
+          "category": "Soyabean",
+          "image": "/assets/products/jwala13.webp",
+          "benefits": [
+            "Maturity duration of only 85 to 92 days",
+            "Seed rate of just 35 to 40 kg per acre",
+            "Crop has a bright, shiny yellow color",
+            "Average yield of 25 to 28 quintals per hectare",
+            "Excellent disease resistance including mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+            "Excellent germination capacity",
+            "Performs well even in heavy rainfall and dense soil conditions"
+          ]
+        },
+
+        {
+        "title": "Improved Mustard 35-36",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds3536.webp",
+        "benefits": [
+          "This hybrid variety has the potential to yield 12-14 quintals per acre.",
+          "This variety matures and is ready for harvest in approximately 120-130 days.",
+          "1 kg of seed is sufficient for sowing 1 acre of this variety.",
+          "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
+          "Frost resistant"
+        ]
+      },
+        {
+          "title": "Improved Chia Seeds 901",
+          "category": "Chia Seeds",
+          "image": "/assets/products/chiaseeds.webp",
+          "benefits": [
+            "This variety gives a higher yield compared to normal Chia.",
+            "Maturity Period: It matures and becomes ready for harvest in approximately 110 to 120 days.",
+            "Sowing: 1 kg of seeds is sufficient for sowing in 1 acre.",
+            "Irrigation: It requires 4-5 light irrigations.",
+            "Yield: A production of approximately 6 quintals per acre can be obtained.",
+            "Frost Resistant: This variety is tolerant to frost conditions.",
+            "Disease Resistance: It is less susceptible to diseases."
+          ]
+        },
+        {
+          "title": "Improved Wheat Seeds AW21",
+          "category": "Wheat Seeds",
+          "image": "/assets/products/wheatseeds-aw21.webp",
+          "benefits": [
+            "High Yield: This variety is high-yielding, especially in Madhya Pradesh.",
+            "Better Grain Quality: It has superior grain quality, making it suitable for making rotis and other uses.",
+            "Disease Resistant: This variety is resistant to some common wheat diseases, helping farmers use fewer pesticides.",
+            "Enhanced Nutritional Value: This variety has better nutrition levels, making it more nutritious for human consumption.",
+            "Crop Duration: This variety matures in 115 to 120 days, making it an attractive option for farmers.",
+            "Lodging Resistance: The plant height is 90-95 cm, which prevents it from falling even in strong winds, keeping the yield safe.",
+            "Irrigation Requirement: This variety typically requires 3-4 irrigations.",
+            "Suitability: This variety is suitable for cultivation in states like Madhya Pradesh, Chhattisgarh, Rajasthan, and Gujarat.",
+            "Seed Rate: A seed rate of 40-45 kg per acre is recommended."
+          ]
+        },
+
+        {
+          "title": "Improved Shiva",
+          "category": "Gram Seeds",
+          "image": "/assets/products/shivagramseeds.webp",
+          "benefits": [
+            "High Yield Potential: Shiva Chana can provide a yield of up to 39 quintals per hectare, which is equivalent to 15.5 quintals per acre.",
+            "Disease Resistance: This gram variety is resistant to diseases like Fusarium wilt.",
+            "Drought Tolerance: This variety can provide a good yield even in low water conditions.",
+            "Crop Duration: Ganpati 101 gram matures and is ready in 105-110 days.",
+            "Suitability: This variety is recommended for sowing in the Rabi season and under irrigated conditions.",
+            "Seed Rate: A seed rate of 30-35 kg per acre is recommended."
+          ]
+        },
+
+        {
+          "title": "Improved Megha",
+          "category": "Moong Seeds",
+          "image": "/assets/products/moongseedsmegha.webp",
+          "benefits": [
+            "Disease Resistance: This variety is resistant to diseases like Yellow Mosaic Virus and Leaf Curl.",
+            "Production: Its yield potential is 12 to 20 quintals per hectare, which is higher compared to other varieties.",
+            "Crop Duration: This variety matures and is ready for harvest in 50 to 65 days.",
+            "Suitable Timing: It can be sown in Kharif, Summer, and Spring seasons.",
+            "Irrigation: Perform the first irrigation approximately 22 days after sowing, followed by two more irrigations at 15-day intervals.",
+            "Fertilizer: Use Urea, Single Super Phosphate (SSP), and Potash; apply fertilizers only after getting a soil test done."
+          ]
+        }
+      ]
+    }, 
+    "trustSection": {
+      "heading": "Why Aeros Seeds?",
+      "subHeading": "Trust grown over generations",
+      "description": "We don’t just sell seeds — we stand behind every packet with science, support and a promise of quality you can taste in every harvest.",
+      "features": [
+        {
+          "title": "Premium quality tested seeds",
+          "desc": "Every batch lab-checked for purity & germination above 95%.",
+          "icon": "verified_user"
+        },
+        {
+          "title": "High Yield",
+          "desc": "Field-proven hybrids built for Indian soil and climate.",
+          "icon": "trending_up"
+        },
+        {
+          "title": "Trusted by Farmers",
+          "desc": "Relying on proven field performance, quality-tested seeds trusted by thousands of farmers.",
+          "icon": "workspace_premium"
+        },
+        {
+          "title": "Affordable Pricing",
+          "desc": "High-quality seeds at fair prices, ensuring better value without compromising yield.",
+          "icon": "sell"
+        }
+      ]
+    },
+    "process": {
+      "heading": "The Aeros Process",
+      "subHeading": "From the field to your sowbag",
+      "description": "Three simple steps. Every seed traceable, tested, and trusted.",
+      "steps": [
+        {
+          "id": "01",
+          "title": "Sourced",
+          "description": "Hand-picked parent lines grown on partner farms across India.",
+          "image": "/assets/images/farms-crops.webp"
+        },
+        {
+          "id": "02",
+          "title": "Processed",
+          "description": "Cleaned, graded and treated in our state-of-the-art facility.",
+          "image": "/assets/images/factory.webp"
+        },
+        {
+          "id": "03",
+          "title": "Packed",
+          "description": "Sealed in moisture-proof packs with full traceability.",
+          "image": "/assets/images/factory_new.webp"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Voices from the Field",
+      "subHeading": "Loved by farmers across India",
+      "testimonials": [
+        {
+          "id": 1,
+          "quote": "The seed quality was really good. Germination started within 4-5 days and the plants are growing healthy. Totally worth it!",
+          "name": "Amit Sharma",
+          "location": "Jaipur, Rajasthan",
+          "image": "/assets/testimonials/person_one.webp"
+        },
+        {
+          "id": 2,
+          "quote": "Tried it for the first time and had some doubts, but the results were impressive. Pest resistance was decent and maintenance was easy.",
+          "name": "Ravi Verma",
+          "location": "Indore, Madhya Pradesh",
+          "image": "/assets/testimonials/person_second.webp"
+        },
+        {
+          "id": 3,
+          "quote": "All packets had clear labeling with crop details and sowing instructions. Very helpful for farmers.",
+          "name": "Mahesh Yadav",
+          "location": "Kota, Rajasthan",
+          "image": "/assets/testimonials/person_third.webp"
+        },
+        {
+          "id": 4,
+          "quote": "Ordered in bulk and the packaging was neat and well-organized. Easy to handle and store.",
+          "name": "Sunil Patel",
+          "location": "Surat, Gujarat",
+          "image": "/assets/testimonials/person_fourth.webp"
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Ready to plant smarter this season?",
+      "subHeading": "Talk to our agronomy team — pricing, varieties for your soil, and direct dispatch. No forms, just WhatsApp.",
+      "rightButton": "Whatsapp now",
+      "rightText": "Or call us",
+      "benefits": [
+        "Free expert advice",
+        "Direct from manufacturer pricing",
+        "Pan-India delivery"
+      ]
+    }
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "subHeading": "Let's talk seeds.",
+    "description": "Send us a quick message and we'll continue the conversation on WhatsApp — fast, simple and in your language.",
+    "form": {
+      "name": {
+        "heading": "YOUR NAME",
+        "placeholder": "Enter your name"
+      },
+      "phone": {
+        "heading": "PHONE NUMBER",
+        "placeholder": "Enter your phone number"
+      },
+      "message": {
+        "heading": "YOUR MESSAGE",
+        "placeholder": "Tell us about your crop, area or which seeds you need..."
+      },
+      "submitButton": "Send via Whatsapp",
+      "infoText": "We don't store your form. The message opens directly in WhatsApp."
+    },
+    "contactDetails": {
+      "heading": "Quick Contact",
+      "details": {
+        "phone": {
+          "heading": "PHONE",
+          "value": "+91 9329202018"
+        },
+        "email": {
+          "heading": "EMAIL",
+          "value": "aerosseeds@gmail.com"
+        },
+        "address": {
+          "heading": "VISIT",
+          "value": "Aeros Seeds and Biotech Farmers Producer Company, Khasra No. 121/2, Khandwa Road, Gangla, Harda, Madhya Pradesh – 461331"
+        }
+      },
+      "contactButton": "Open Whatsapp"
+    }
+  },
+  "about": {
+    "hero": {
+      "our-story": "Our story",
+      "title": "Built by farmers, for farmers.",
+      "para-1": "Aeros Seeds and Biotech Farmers Producer Company was founded with a clear purpose — to empower Indian farmers with high-quality seeds that deliver consistent performance and better yields. With deep roots in agriculture and years of experience, we understand the real challenges faced in the field.",
+      "para-2": "Our journey began with a vision to bridge the gap between advanced agricultural science and practical farming needs. Today, Aeros Seeds stands as a trusted name among farmers, dealers, and agri businesses, committed to quality, reliability, and long-term growth."
+    },
+    "whatWeStandFor": {
+      "title": "What we stand for",
+      "boxes": [
+        {
+          "icon": "check_circle",
+          "title": "Quality First",
+          "description": "We deliver carefully tested, high-quality seeds that ensure better germination and strong crop performance."
+        },
+        {
+          "icon": "agriculture",
+          "title": "Farmer Focus",
+          "description": "Every product is designed keeping farmers’ real needs, challenges, and profitability in mind."
+        },
+        {
+          "icon": "build_circle",
+          "title": "Innovation",
+          "description": "We combine modern agricultural techniques with practical field knowledge to improve productivity."
+        },
+        {
+          "icon": "handshake",
+          "title": "Trust & Reliability",
+          "description": "We build long-term relationships with farmers and partners through honesty and consistent results."
+        }
+      ]
+    },
+    "ourVision": {
+      "title": "Our Vision",
+      "para": "To become one of India’s most trusted and preferred seed brands by delivering high-performance agricultural solutions that contribute to farmer success and sustainable growth."
+    },
+    "ourMission": {
+      "title": "Our Mission",
+      "para": "To provide reliable, high-quality seeds that enhance crop productivity, improve farmer income, and support the future of Indian agriculture through innovation and dedication."
+    },
+    "leadership": "Led by Sandeep Patel, Aeros Seeds is driven by experience, dedication, and a deep understanding of agriculture."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "footer": {
+    "sownForTrust": "SOWN FOR TRUST",
+    "description": "Quality-tested, high-germination seeds for Indian farms. Trusted by thousands of farmers across India for stronger yield and reliable harvests.",
+    "headings": {
+      "explore": "EXPLORE",
+      "reachUs": "REACH US",
+      "phone": "+91 9329202018",
+      "email": "aerosseeds@gmail.com",
+      "address": "Aeros Seeds and Biotech Farmers Producer Company, Khasra No. 121/2, Khandwa Road, Gangla, Harda, Madhya Pradesh – 461331"
+    },
+    "copyright": "Aeros Seeds Co. All rights reserved.",
+    "createdBy": "Crafted for Indian farmers · Made with ❤️"
+  },
+  "page404": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you are looking for doesn’t exist or has been moved.",
+    "logoTagline": "Aeros Seeds · Growing Trust"
+  },
+  "products": {
+    "heading": "Our seeds",
+    "subHeading": "Filter by category or search — every variety comes with a direct WhatsApp enquiry.",
+    "search": "Search",
+    "catalogue": "CATALOGUE",
+    "categories": [
+      "All",
+      "Moong Seeds",
+      "Soyabean",
+      "Maize",
+      "Chia Seeds",
+      "Mustard Seeds",
+      "Wheat Seeds",
+      "Gram Seeds"
+    ],
+    "products": [
+      {
+        "title": "Hybrid Maize 771",
+        "category": "Maize",
+        "image": "/assets/products/hybridmaize-771.webp",
+        "benefits": [
+          "Highly suitable for sowing with a seed drill",
+          "First choice of farmers",
+          "Higher yield and better market price",
+          "Cobs do not open even after maturity",
+          "Strong stem and root system, so the crop does not lodge in wind",
+          "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+          "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+        ]
+      },
+      {
+        "title": "Hybrid Maize 775",
+        "category": "Maize",
+        "image": "/assets/products/hybridmaize-775.webp",
+        "benefits": [
+          "Highly suitable for sowing with a seed drill",
+          "Maximum yield",
+          "Versatile: suitable for both Kharif (June–July) and Rabi (October–November) seasons",
+          "Grain quality: kernels are bold, heavy, and yellow-orange in color, fetching good market prices",
+          "High shelling: 86–87% shelling percentage, meaning a high grain-to-cob ratio",
+          "Suitable for Central India, Bihar, Rajasthan, Gujarat, and Chhattisgarh",
+          "Fetches higher market price",
+          "Matures in 130–150 days in Rabi and 115–120 days in Kharif"
+        ]
+      },
+      {
+        "title": "Hybrid Maize 772",
+        "category": "Maize",
+        "image": "/assets/products/hybridmaize-772.webp",
+        "benefits": [
+          "Highly suitable for sowing with a seed drill",
+          "Excellent germination capacity",
+          "Known for high yield per acre",
+          "High starch content, making it ideal for ethanol production",
+          "Strong disease resistance",
+          "Strong stem provides resistance against lodging",
+          "Uniform cobs filled up to the tip",
+          "Fetches higher market price"
+        ]
+      },
+      {
+        "title": "Improved Jwala-07 Soyabean",
+        "category": "Soyabean",
+        "image": "/assets/products/jwala07.webp",
+        "benefits": [
+          "Maturity duration: 85 to 95 days",
+          "Seed rate: 40–45 kg per acre",
+          "Grain color: bright yellow",
+          "Average yield: 24 to 27 quintals per hectare",
+          "Special feature: resistant to diseases like yellow mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+          "Excellent germination capacity",
+          "Suitable for timely sowing and adaptable to both high and low rainfall conditions"
+        ]
+      },
+      {
+        "title": "Improved Jwala-13 Soyabean",
+        "category": "Soyabean",
+        "image": "/assets/products/jwala13.webp",
+        "benefits": [
+          "Maturity duration of only 85 to 92 days",
+          "Seed rate of just 35 to 40 kg per acre",
+          "Crop has a bright, shiny yellow color",
+          "Average yield of 25 to 28 quintals per hectare",
+          "Excellent disease resistance including mosaic, charcoal rot, blight, bacterial diseases, and leaf spot",
+          "Excellent germination capacity",
+          "Performs well even in heavy rainfall and dense soil conditions"
+        ]
+      },
+      {
+        "title": "Improved Mustard 35-36",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds3536.webp",
+        "benefits": [
+          "This hybrid variety has the potential to yield 12-14 quintals per acre.",
+          "This variety matures and is ready for harvest in approximately 120-130 days.",
+          "1 kg of seed is sufficient for sowing 1 acre of this variety.",
+          "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
+          "Frost resistant"
+        ]
+      },
+      {
+        "title": "Improved Chia Seeds 901",
+        "category": "Chia Seeds",
+        "image": "/assets/products/chiaseeds.webp",
+        "benefits": [
+          "This variety gives a higher yield compared to normal Chia.",
+          "Maturity Period: It matures and becomes ready for harvest in approximately 110 to 120 days.",
+          "Sowing: 1 kg of seeds is sufficient for sowing in 1 acre.",
+          "Irrigation: It requires 4-5 light irrigations.",
+          "Yield: A production of approximately 6 quintals per acre can be obtained.",
+          "Frost Resistant: This variety is tolerant to frost conditions.",
+          "Disease Resistance: It is less susceptible to diseases."
+        ]
+      },
+      {
+        "title": "Improved Wheat Seeds AW21",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatseeds-aw21.webp",
+        "benefits": [
+          "High Yield: This variety is high-yielding, especially in Madhya Pradesh.",
+          "Better Grain Quality: It has superior grain quality, making it suitable for making rotis and other uses.",
+          "Disease Resistant: This variety is resistant to some common wheat diseases, helping farmers use fewer pesticides.",
+          "Enhanced Nutritional Value: This variety has better nutrition levels, making it more nutritious for human consumption.",
+          "Crop Duration: This variety matures in 115 to 120 days, making it an attractive option for farmers.",
+          "Lodging Resistance: The plant height is 90-95 cm, which prevents it from falling even in strong winds, keeping the yield safe.",
+          "Irrigation Requirement: This variety typically requires 3-4 irrigations.",
+          "Suitability: This variety is suitable for cultivation in states like Madhya Pradesh, Chhattisgarh, Rajasthan, and Gujarat.",
+          "Seed Rate: A seed rate of 40-45 kg per acre is recommended."
+        ]
+      },
+      {
+        "title": "Improved Shiva",
+        "category": "Gram Seeds",
+        "image": "/assets/products/shivagramseeds.webp",
+        "benefits": [
+          "High Yield Potential: Shiva Chana can provide a yield of up to 39 quintals per hectare, which is equivalent to 15.5 quintals per acre.",
+          "Disease Resistance: This gram variety is resistant to diseases like Fusarium wilt.",
+          "Drought Tolerance: This variety can provide a good yield even in low water conditions.",
+          "Crop Duration: Ganpati 101 gram matures and is ready in 105-110 days.",
+          "Suitability: This variety is recommended for sowing in the Rabi season and under irrigated conditions.",
+          "Seed Rate: A seed rate of 30-35 kg per acre is recommended."
+        ]
+      },
+      {
+        "title": "Improved Megha",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsmegha.webp",
+        "benefits": [
+          "Disease Resistance: This variety is resistant to diseases like Yellow Mosaic Virus and Leaf Curl.",
+          "Production: Its yield potential is 12 to 20 quintals per hectare, which is higher compared to other varieties.",
+          "Crop Duration: This variety matures and is ready for harvest in 50 to 65 days.",
+          "Suitable Timing: It can be sown in Kharif, Summer, and Spring seasons.",
+          "Irrigation: Perform the first irrigation approximately 22 days after sowing, followed by two more irrigations at 15-day intervals.",
+          "Fertilizer: Use Urea, Single Super Phosphate (SSP), and Potash; apply fertilizers only after getting a soil test done."
+        ]
+      },
+      
+      {
+        "title": "Mustard",
+        "category": "Mustard Seeds",
+        "image": "/assets/products/mustardseeds.webp",
+        "benefits": [
+          "This hybrid variety has the potential to yield 12-14 quintals per acre.",
+          "This variety matures and is ready for harvest in approximately 120-130 days.",
+          "1 kg of seed is sufficient for sowing 1 acre of this variety.",
+          "Its pods are long, the grains are thick and heavy, and the grains are brownish-black in color.",
+          "Frost resistant"
+        ]
+      },
+
+      {
+        "title": "PDM-139",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseeds-pdm139.webp"
+      },
+      {
+        "title": "S-444",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseeds-s444.webp"
+      },
+      {
+        "title": "Double Talvar",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsdoubletalvar.webp"
+      },
+      {
+        "title": "Hum-12",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedshum12.webp"
+      },
+      {
+        "title": "Jhumki",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsjhumki.webp"
+      },
+      {
+        "title": "Shikha IPM-410",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedsshikhaipm410.webp"
+      },
+      {
+        "title": "Virat",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongseedvirat.webp"
+      },
+      {
+        "title": "Sanskriti PDM-139",
+        "category": "Moong Seeds",
+        "image": "/assets/products/sanskritimoongseeds-pdm139.webp"
+      },
+
+      {
+        "title": "HUM-16",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon1.webp"
+      },
+      {
+        "title": "HUM-27",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon2.webp"
+      },
+      {
+        "title": "MH-1142",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon3.webp"
+      },
+      {
+        "title": "MH-421",
+        "category": "Moong Seeds",
+        "image": "/assets/products/moongcommon1.webp"
+      },
+      {
+        "title": "Vishal",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon1.webp"
+      },
+      {
+        "title": "JG-130",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon2.webp"
+      },
+      {
+        "title": "JG-11",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon1.webp"
+      },
+      {
+        "title": "R VEG-202",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon2.webp"
+      },
+      {
+        "title": "R VEG-204",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon1.webp"
+      },
+      {
+        "title": "Pusha Manav",
+        "category": "Gram Seeds",
+        "image": "/assets/products/gramcommon2.webp"
+      },
+      {
+        "title": "LOK-1",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "Tejas HI-8759",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "GW-322",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HI-1544",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "DBW-303",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "DBW-377",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HI-1650",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HD-3385",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "GW-513",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "HI-8850",
+        "category": "Wheat Seeds",
+        "image": "/assets/products/wheatcommon.webp"
+      },
+      {
+        "title": "JS-9560",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon1.webp"
+    },
+    {
+        "title": "JS-2172",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon2.webp"
+    },
+    {
+        "title": "JS-2117",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon3.webp"
+    },
+    {
+        "title": "JS-2218",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon4.webp"
+    },
+    {
+        "title": "Black Gold",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon5.webp"
+    },
+    {
+        "title": "NRC-150",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon1.webp"
+    },
+    {
+        "title": "JS-2303",
+        "category": "Soyabean",
+        "image": "/assets/products/soyabeancommon2.webp"
+    }
+    ]
+  },
+  "whatsapp": {
+    "navbar": "Hello, I recently visited your website and would like to know more about your agricultural products, services, and how you can help me. Please share complete details.",
+    "hero": "Hello, I am interested in your agricultural products and would like guidance on the best options for the current season. Please help me with suitable recommendations and details.",
+    "season": "Hello, I am planning to start this farming season and want to choose the right seeds and products. Please suggest the best options along with complete details and pricing.",
+    "footer": "Hello, I came across your website and would like to know more about your products and services. Kindly share more information and details.",
+    "about": "Hello, I read about your company and I am interested in learning more about your agricultural products, quality, and services. Please provide more details.",
+    "contactDirect": "Hello, I am reaching out to you directly through your website and would like to inquire about your products and services. Please share the necessary details.",
+    "floating": "Hello, I want to inquire about your agricultural products. Please provide more information.",
+    "contactForm": "Hello,\n\nMy name is {{name}}.\nMy phone number is {{phone}}.\n\n{{message}}"
+  },
+  "error": {
+    "nameRequired": "Name is required",
+    "phoneRequired": "Phone number is required"
+  }
+}
